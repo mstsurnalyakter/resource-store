@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Clash</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="poppins">
+    <main
+      class="bg-[#010313] min-h-screen bg-[url(./images/background.png)] bg-no-repeat bg-center"
+    >
+      <!-- home section -->
+      <section
+        id="home-section"
+        class="flex items-center justify-center min-h-screen"
+      >
+        <div class="space-y-6 text-center">
+          <h1 class="text-[#FFF] anton text-8xl">ALPHABET CLASH</h1>
+          <p class="text-[#fff] text-2xl font-medium">
+            Unleash Your Keyboard Kung Fu : Press “Enter” to Play
+          </p>
+          <button class="btn" id="playBtn">Play Now</button>
+        </div>
+      </section>
+
+      <!-- play ground section -->
+      <section
+        id="play-ground-section"
+        class="flex items-center justify-center min-h-screen flex-col space-y-14 hidden"
+      >
+        <!-- screen -->
+        <section>
+          <div
+            class="artboard artboard-horizontal phone-6 border-[#010313CC] border-[20px] bg-[#FFFFFFB3]"
+          >
+            <div class="flex items-center justify-center h-full text-9xl">
+              <p class="uppercase" id="currentLetter">Y</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- keyboard section start -->
+        <section>
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd id="q" class="kbd">q</kbd>
+            <kbd id="w" class="kbd">w</kbd>
+            <kbd id="e" class="kbd">e</kbd>
+            <kbd id="r" class="kbd">r</kbd>
+            <kbd id="t" class="kbd">t</kbd>
+            <kbd id="y" class="kbd">y</kbd>
+            <kbd id="u" class="kbd">u</kbd>
+            <kbd id="i" class="kbd">i</kbd>
+            <kbd id="o" class="kbd">o</kbd>
+            <kbd id="p" class="kbd">p</kbd>
+          </div>
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd id="a" class="kbd">a</kbd>
+            <kbd id="s" class="kbd">s</kbd>
+            <kbd id="d" class="kbd">d</kbd>
+            <kbd id="f" class="kbd">f</kbd>
+            <kbd id="g" class="kbd">g</kbd>
+            <kbd id="h" class="kbd">h</kbd>
+            <kbd id="j" class="kbd">j</kbd>
+            <kbd id="k" class="kbd">k</kbd>
+            <kbd id="l" class="kbd">l</kbd>
+          </div>
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd id="z" class="kbd">z</kbd>
+            <kbd id="x" class="kbd">x</kbd>
+            <kbd id="c" class="kbd">c</kbd>
+            <kbd id="v" class="kbd">v</kbd>
+            <kbd id="b" class="kbd">b</kbd>
+            <kbd id="n" class="kbd">n</kbd>
+            <kbd id="m" class="kbd">m</kbd>
+            <kbd id="/" class="kbd">/</kbd>
+          </div>
+        </section>
+        <!-- keyboard section end -->
+
+        <!-- life and score section -->
+        <section class="space-x-96">
+          <button class="btn bg-[#894189] hover:bg-[#894189] text-white">
+            Life
+            <img src="./images/heart.svg" alt="" />
+            <span id="life">5</span>
+          </button>
+          <button class="btn bg-[#360490] hover:bg-[#360490] text-white">
+            Score
+            <img src="./images/heart.svg" alt="" />
+            <span id="score">0</span>
+          </button>
+        </section>
+      </section>
+
+      <!-- final score section -->
+      <section id="score-section" class="min-h-screen flex items-center justify-center hidden">
+        <div
+          class="bg-[#FFFFFF12] w-96 h-96 flex items-center justify-center flex-col space-y-4 rounded-2xl p-4"
+        >
+          <h1 class="text-white text-6xl font-extrabold">
+            Score : <span id="final-score">0</span>
+          </h1>
+          <button class="btn" id="play-again">Play Again</button>
+          <p class="text-white text-3xl">Practice will make you Pro</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

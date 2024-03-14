@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Portal</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- daisy ui and tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="roboto">
+    <!-- header section -->
+    <header class="container mx-auto px-4 lg:px-24">
+      <nav class="py-5">
+        <div class="navbar">
+          <div class="flex-1">
+            <p class="flex gap-4 items-center">
+              <button
+                class="btn bg-[#5D5FEF] hover:bg-[#5D5FEF] text-white font-bold"
+              >
+                News
+              </button>
+              <span>Portal</span>
+            </p>
+          </div>
+          <div class="flex gap-10">
+            <button class="underline text-[#5D5FEF]">News</button>
+            <button class="">News</button>
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost btn-circle avatar"
+            >
+              <div class="w-10 rounded-full">
+                <img
+                  alt="Tailwind CSS Navbar component"
+                  src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- horizontal line -->
+
+    <!-- main section -->
+    <main class="container mx-auto px-4 lg:px-24">
+      <div class="border-t-2 border-[#CDCDCD] mb-14"></div>
+      <!-- category section -->
+      <section
+        id="btn-container"
+        class="flex items-center justify-center flex-wrap gap-3 mb-11"
+      >
+        <!-- <button class="btn">Breaking New</button> -->
+      </section>
+
+     <section class="mb-11 grid grid-cols-5 gap-1">
+       <input
+        type="text"
+        placeholder="Search............"
+        class="input input-bordered w-full col-span-4"
+      />
+      <button class="btn btn-primary">Search</button>
+     </section>
+
+   
+
+      <!-- news container -->
+      <section>
+        <div  id="card-data-container" class="grid grid-cols-1 gap-4">
+          <div
+
+            class="card grid grid-cols-3 bg-base-100 shadow-xl"
+          >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer></footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

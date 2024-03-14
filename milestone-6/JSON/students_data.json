@@ -1,0 +1,40 @@
+{
+  "students": [
+        {
+            "name":"Surnaly",
+            "middleName":null,
+            "age":21,
+            "cgpa":4,
+            "isRegistered":true,
+            "language":["Bangla","English","Hindi"],
+            "friends":{
+                "Name":"Anna",
+                "age":21
+            }
+        },
+        {
+            "name":"Tisha",
+            "middleName":null,
+            "age":21,
+            "cgpa":3.4,
+            "isRegistered":false,
+            "language":["Bangla","English","Hindi"],
+            "friends":{
+                "Name":"Bela",
+                "age":20
+            }
+        },
+        {
+            "name":"Akter",
+            "middleName":null,
+            "age":21,
+            "cgpa":3,
+            "isRegistered":true,
+            "language":["Bangla","Hindi"],
+            "friends":{
+                "Name":"Mala",
+                "age":22
+            }
+        }
+    ]
+}

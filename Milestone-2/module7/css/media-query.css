@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.food{
+    border: 1px solid skyblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.food img{
+    width: 100%;
+}
+
+/* media query */
+
+@media screen and (max-width:576px) {
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

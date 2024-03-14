@@ -1,0 +1,384 @@
+/* Poppins, Roboto, and Inter fonts from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@700&display=swap");
+/* common style here */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+  max-width: 1210px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.margin-bottom {
+  margin-bottom: 100px;
+}
+
+.primary-color {
+  color: #3a3a3a;
+}
+
+.section-description {
+  font-weight: 600;
+}
+
+.primary-btn {
+  color: #fff;
+  font-weight: 700;
+  padding: 0.6rem 1.5rem;
+  background: #e02c6d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.arrow {
+  font-size: 1rem;
+  position: relative;
+  top: 0.4rem;
+  cursor: pointer;
+}
+
+/* header style here */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+nav h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+nav > ul {
+  display: flex;
+  gap: 2.2rem;
+}
+
+nav a,
+nav img {
+  color: #3a3a3a;
+  font-weight: 600;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content .banner-text {
+  width: 36.4rem;
+}
+
+.banner-content .banner-text * {
+  margin-bottom: 1rem;
+}
+
+.banner-text h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-text button {
+  border-radius: 2.56rem;
+}
+
+.banner-image {
+  background-image: url("./images/circle.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-image > img{
+  width: 100%;
+}
+
+/* main style here */
+
+/* Company section here */
+.company {
+  display: flex;
+  align-items: center;
+  padding: 2.7rem 0;
+  justify-content: space-around;
+}
+
+.company section > img{
+  width: 100%;
+}
+
+hr {
+  max-width: 1110px;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+}
+
+/* Popular Collection section style here */
+.collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection > .more-see {
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  position: relative;
+  left: 29rem;
+  cursor: pointer;
+}
+
+.collection .more-see > .arrow2 {
+  position: relative;
+  left: 0.5rem;
+  cursor: pointer;
+}
+
+.collection > h2 {
+  color: #3a3a3a;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 1.88rem;
+}
+
+.card-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.9rem;
+  margin-bottom: 3.2rem;
+}
+
+.card-content > .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20.6rem;
+  height: 30rem;
+  border-radius: 5px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-content .card > img {
+  width: 18.75rem;
+  height: 16rem;
+  border-radius: 5px;
+}
+
+.card > h3 {
+  color: #18191f;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.card > h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+
+.card > strong {
+  color: #5e6366;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.1px;
+}
+
+.card > p {
+  color: #787885;
+  font-family: "Inter", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 0.252px;
+}
+
+/* Featured products section */
+
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.feature-image img{
+  width: 100%;
+}
+
+.feature .feature-text {
+  width: 38rem;
+}
+
+.feature .feature-text * {
+  margin-bottom: 1rem;
+}
+
+.feature .feature-text > h2 {
+  color: #0a0826;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.feature .feature-text > p {
+  width: 31.3rem;
+  color: #6c6c6c;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+/* footer style here */
+
+footer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 15rem;
+  background: #0a0826;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3px;
+}
+
+footer > h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+footer > p {
+  color: #d9dbe1;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+footer > .social-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+
+/* Responsive style here */
+
+@media screen and (max-width:576px) {
+  .card-content {
+  grid-template-columns: 1fr;
+}
+
+.collection > .more-see {
+  left: 6rem;
+}
+
+.feature {
+  flex-direction: column-reverse;
+}
+
+.feature .feature-text {
+  width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature .feature-text > h2 {
+  font-size: 1.5rem;
+ line-height: 1.9rem;
+}
+
+.feature .feature-text > p {
+  width: auto;
+}
+
+.company {
+  flex-wrap: wrap;
+}
+
+.company section > img{
+  width: 70%;
+}
+
+
+.banner-content {
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.banner-content .banner-text {
+  width: 100%;
+  text-align: center;
+}
+
+
+.banner-text > h1 {
+font-size: 1.75rem;
+line-height: 2.4rem;
+}
+
+.banner-text button {
+ margin-left: 4rem;
+}
+
+
+.banner-image > img{
+  width: 100%;
+}
+
+nav {
+  margin: 30px 0;
+  flex-direction: column;
+  gap: 5px;
+}
+
+nav h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav > ul {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+}

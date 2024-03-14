@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>Mouseleave event is triggered when the mouse pointer leaves an element</h1>
+  <p>Move the mouse pointer enter and leave area of the div.</p>
+  <div onmouseenter="enterColor()" onmouseleave="leaveColor()" id="div">
+    <p>This is a div</p>
+  </div>
+
+  <script>
+    const div = document.querySelector('#div');
+
+    div.addEventListener('mouseenter',()=>{
+        div.style.backgroundColor = "red";
+        div.style.with = '30rem';
+        div.style.height = '20rem';
+        div.style.lineHeight = '20rem';
+        div.style.textAlign = 'center';
+        div.style.color = 'white'
+
+    })
+    div.addEventListener('mouseleave',()=>{
+        div.style.backgroundColor = "blue";
+        div.style.with = '30rem';
+        div.style.height = '20rem';
+        div.style.lineHeight = '20rem';
+        div.style.textAlign = 'center';
+        div.style.color = 'white'
+    })
+  </script>
+
+</body>
+</html>

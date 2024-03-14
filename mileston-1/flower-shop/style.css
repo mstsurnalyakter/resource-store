@@ -1,0 +1,66 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* common style starts here */
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+button {
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  /* display: inline-flex; */
+  padding: 20px 43px;
+  /* align-items: flex-start; */
+  /* gap: 10px; */
+}
+
+/* common style ends here */
+
+/* header section starts here */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner .banner-text h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.banner .banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner .banner-image img{
+    width: 100%;
+}
+
+/* header section ends here */

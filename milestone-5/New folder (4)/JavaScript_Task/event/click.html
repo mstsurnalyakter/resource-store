@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>click event is triggered when user clicks on an element</h1>
+  <p id="elm" onclick="changeColor()">Click this element</p>
+
+  <script>
+    const changeColor = () =>{
+        const elm = document.querySelector('#elm');
+        elm.style.color = 'red';
+        elm.style.fontSize = '2rem';
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./images/baby.jpg');
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

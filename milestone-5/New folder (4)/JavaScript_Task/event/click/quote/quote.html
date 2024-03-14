@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <main class="container mx-auto pl-52  my-10 space-y-5">
+        <h1 class="font-bold text-3xl">Goriber Evaly Rebooted 2.0 🛍</h1>
+        <textarea class="border-2 border-black" name="" id="" cols="50" rows="10"></textarea>
+        <br>
+            <button class="btn btn-primary  text-end">SUBMIT</button>
+        <h2 class="text-red-400 font-bold text-3xl">User Review...</h2>
+        <div id="comment_container"></div>
+    </main>
+
+    <script>
+
+        const textarea = document.querySelector('textarea');
+        const button = document.querySelector('button');
+        const commentContainer = document.getElementById("comment_container");
+
+        let count = 1;
+
+        button.addEventListener('click',e=>{
+
+            const p = document.createElement('p');
+            p.innerText = `${count}. ${textarea.value}`
+            commentContainer.appendChild(p);
+            count++;
+            textarea.value = "";
+        })
+
+    </script>
+
+</body>
+</html>

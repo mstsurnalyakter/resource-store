@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onresize="reSire()">
+    <h1>Resize Event</h1>
+    <h2 id="demo"></h2>
+
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+        alias blanditiis asperiores ducimus facilis, non praesentium ipsam.
+        Repudiandae, ratione ipsum!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+        alias blanditiis asperiores ducimus facilis, non praesentium ipsam.
+        Repudiandae, ratione ipsum!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+        alias blanditiis asperiores ducimus facilis, non praesentium ipsam.
+        Repudiandae, ratione ipsum!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+        alias blanditiis asperiores ducimus facilis, non praesentium ipsam.
+        Repudiandae, ratione ipsum!
+      </p>
+    </section>
+
+    <script>
+        const heading2 = document.querySelector('#demo');
+        function reSire(){
+            heading2.innerHTML = `Inner width = ${window.innerWidth} && inner height = ${window.innerHeight}`;
+        }
+    </script>
+  </body>
+</html>

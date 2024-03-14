@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>select event is triggered when the user selects an option from a dropdown list</h1>
+  <p>Select an option from the dropdown list to see the result.</p>
+  <select name="cars" onchange="selectInput()">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+
+  <script>
+    const selectInput = e =>{
+        alert(`You selected: ${this.value}`)
+    }
+  </script>
+</body>
+</html>

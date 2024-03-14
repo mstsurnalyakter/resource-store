@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.container section{
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.left{
+    width: 30%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      height: 98vh;
+      font-size: 50px;
+}
+
+.right{
+    width: 70%;
+    background-color: blanchedalmond;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    height:98vh;
+    font-size: 50px;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+
+    }
+
+    .left{
+        width: 100%;
+        height:30vh;
+    }
+
+    .right{
+        width: 100%;
+        height: 66vh;
+    }
+}

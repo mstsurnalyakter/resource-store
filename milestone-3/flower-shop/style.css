@@ -1,0 +1,227 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* common style starts here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto 100px auto;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+button {
+  padding: 20px 43px;
+  gap: 10px;
+  color: #fff;
+  border-radius: 8px;
+  background: #e55473;
+  opacity: 0.9;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 2ms linear;
+}
+
+button:hover {
+  background-color: #df3257;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.section-heading {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-heading * {
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/* common style ends here */
+
+/* header starts here */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner .banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+
+.banner .banner-text h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.banner .banner-image img {
+  width: 100%;
+}
+/* header ends here */
+
+/* Feature section starts here */
+.feature-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-section .section-content {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section-content .flower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
+}
+
+.section-content .flower .flower-image {
+  /* background-color: #ce7387; */
+  border-radius: 300px 300px 0px 0px;
+  padding: 30px 25px 0;
+  height: 500px;
+  display: flex;
+  /* align-items:end; */
+}
+
+.section-content .flower .flower-image img {
+  width: 100%;
+}
+
+.pink {
+  background: rgba(167, 33, 98, 0.15);
+}
+.blue {
+  background: rgba(5, 151, 160, 0.15);
+}
+.green {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.flower > p {
+  color: #272727;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 16px;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+/* Feature section ends here */
+
+/* Address section starts here */
+.address-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.address-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-section .address-item .address-image img {
+  width: 100%;
+}
+/* Address section ends here */
+
+/* Hot Deal section starts here */
+#hot-deal {
+  background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hot-deal-section .hot-deal-text {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+}
+
+.hot-deal-section .hot-deal-text h2 {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.hot-deal-section .hot-deal-text p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hot-deal-section .hot-deal-text h2 span {
+  color: #e55473;
+}
+/* Hot Deal section ends here */
+
+/* Media Query */
+
+@media screen and (max-width: 576px) {
+  .banner,.section-content,.hot-deal-section {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 40px;
+  }
+
+
+  .address-section {
+    height: auto;
+    padding: 30px 0;
+  }
+  .address-section .address-item {
+    margin-bottom: 20px;
+  }
+}

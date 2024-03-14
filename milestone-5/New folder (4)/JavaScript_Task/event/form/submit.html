@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form action="" onsubmit="handleSubmit(event)">
+        <input type="text" name="name" id="name" placeholder="Name"><br><br>
+        <input type="email" name="email" id="email" placeholder="Email"><br><br>
+        <input type="password" name="password" id="password" placeholder="password">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        const handleSubmit = event =>{
+            event.preventDefault();
+            alert('Form is submitted successfully.')
+        }
+    </script>
+</body>
+</html>

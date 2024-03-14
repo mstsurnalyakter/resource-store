@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Add New</button>
+    <ul>
+        <li>Lorem, ipsum.</li>
+        <li>Fuga, harum!</li>
+        <li>Laudantium, quidem?</li>
+        <li>Earum, dolores?</li>
+    </ul>
+
+    <script>
+        const items = document.getElementsByTagName('li');
+        const ul = document.querySelector('ul');
+
+        document.querySelector('button').addEventListener('click',()=>{
+            const li = document.createElement('li');
+            li.textContent = 'dynamic item';
+            ul.appendChild(li);
+            console.log(`Total HTML Collection: ${items.length}`);
+        })
+    </script>
+</body>
+</html>

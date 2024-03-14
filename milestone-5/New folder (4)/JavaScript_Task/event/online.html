@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body ononline="onLine()" onoffline="offLine()">
+      <h1>onoffline event is triggered when the browser is offline</h1>
+  <p>Close and open your internet connection and see the result.</p>
+  <p id="demo"></p>
+
+  <script>
+    const demo = document.querySelector('#demo');
+    const onLine = () =>{
+        demo.innerHTML='Your Online';
+        demo.style.color = 'green';
+    }
+
+    const offLine = () =>{
+        demo.innerHTML = 'Your offline.';
+        demo.style.color = 'red';
+    }
+  </script>
+</body>
+</html>

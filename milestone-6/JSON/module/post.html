@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .border{
+            border-bottom:1px solid black;
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Display All Posts</h1>
+           <button onclick="loadPostData()">add Post</button>
+    </header>
+
+    <div class="border"></div>
+
+    <main>
+        <section>
+            <h2>All Post Are Here</h2>
+        </section>
+
+
+    <div id="post-container"></div>
+
+    </main>
+
+
+
+
+
+
+    <script src="./post.js"></script>
+</body>
+</html>

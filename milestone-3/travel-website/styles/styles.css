@@ -1,0 +1,835 @@
+/* Mulish and Inter fronts from google fronts */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+/* Common Style here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.common-container {
+  max-width: 1170px;
+  width: 82%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+.common-para {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.text-section {
+  max-width: 643px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.primary-btn {
+  width: 10.9rem;
+  height: 3.25rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #ff5400;
+  cursor: pointer;
+}
+
+.margin-bottom {
+  margin-bottom: 100px;
+}
+
+/* header section style */
+
+.header {
+  padding-top: 3.3rem;
+}
+
+.nav {
+  margin-bottom: 50px;
+}
+
+.nav ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0.8rem;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  user-select: none;
+}
+
+.nav-logo > img {
+  width: 3rem;
+}
+
+.nav-logo h3 {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.nav-link a {
+  color: #424247;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.nav-link:hover a {
+  display: block;
+}
+
+.banner-section {
+  height: 500px;
+  width: 100%;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../images/banner.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text > h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.banner-text > p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.banner-input {
+  width: 800px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.banner-input input,
+select {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 12px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.banner-input #btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#search::placeholder {
+  color: white;
+}
+
+/* Popular Tours section style */
+
+.popular-tour-section {
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+
+.popular-tour-text {
+  max-width: 577px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.popular-tour-text > h2 {
+  margin-bottom: 0;
+}
+
+.popular-tour-text > p {
+  text-align: left;
+}
+
+.popular-tour-text > ul {
+  padding-left: 35px;
+}
+
+.popular-tour-text ul > li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Destination section style */
+
+.destination-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.destination-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.destination-content > section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maldive {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/maldives.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  grid-column: 1 / span 6;
+  grid-row: 1;
+}
+
+.maldive::before {
+  content: "Maldives";
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.indonesia {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/indonesia.png"),
+    lightgray -101px -108.075px / 135.253% 172.05%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  grid-column: 7 / span 6;
+  grid-row: 1;
+}
+
+.indonesia::before {
+  content: "Indonesia";
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.srilanka {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/srilanka.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  grid-column: 1 / span 4;
+  grid-row: 2;
+}
+
+.srilanka::before {
+  content: "Srilanka";
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.north-america {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/north-america.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+
+  grid-column: 5 / span 5;
+  grid-row: 2;
+}
+
+.north-america::before {
+  content: "North America";
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.kashmir {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/kashmir.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+
+  grid-column: 10 / span 3;
+  grid-row: 2;
+}
+
+.kashmir::before {
+  content: "Kashmir";
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.bangladesh {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/bangladesh.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  grid-column: 1 / span 5;
+  grid-row: 3;
+}
+
+.bangladesh::before {
+  content: "Bangladesh";
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.bandarban {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/bandarban.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  grid-column: 6 / span 7;
+  grid-row: 3;
+}
+
+.bandarban::before {
+  content: "Bandarban";
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* Why Choose Us section  style*/
+
+.choose-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.choose-us-content > .card {
+  flex-basis: 573px;
+  height: 284px;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.card1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.card2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.card3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-us-content .card > p {
+  text-align: left;
+}
+
+.choose-us-content .card > h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.choose-us-content .card > img {
+  width: 64px;
+  padding-bottom: 32px;
+}
+
+/* Deals & Discounts section */
+
+.deals-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.deals-section > .primary-btn {
+  width: 250px;
+  padding: 12px;
+  margin-top: 48px;
+}
+
+.deals-content {
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#deals-card1,
+#deals-card3 {
+  height: 500px;
+  border-radius: 16px;
+  background: url("../images/santorini.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 58px;
+}
+
+#deals-card2 {
+  height: 500px;
+  border-radius: 16px;
+  background: url("../images/satorini2.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 58px;
+}
+
+.deals-card > .card {
+  max-width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 52px 77px 50px 50px;
+}
+
+.time-place {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.deals-card .card .time-place p > img {
+  width: 20px;
+}
+
+.time-place > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.time-place p > span {
+  color: #5a5a5d;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-text > p {
+  text-align: left;
+}
+
+.card-text .price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.deals-card .card > button {
+  padding: 14px 0;
+}
+
+/* Perfect Place section style */
+
+.perfect-place-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.perfect-place-text {
+  max-width: 532px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.perfect-place-image {
+  width: 610px;
+  height: 424px;
+  background: linear-gradient(180deg, #131318 -100%, rgba(19, 19, 24, 0) 100%),
+    url("../images/mountain.png"), lightgray 50%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  position: relative;
+}
+
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 25px;
+}
+
+.video-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-image > img {
+  max-width: 562px;
+  height: 4px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.left > span {
+  color: #f3f3f3;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  position: relative;
+  bottom: 5px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.left > img,
+.right > img {
+  width: 24px;
+  height: 24px;
+}
+.perfect-place-image::before {
+  content: "Watch Our Mountain in Bangladesh";
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 300px;
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+}
+
+.place-ul {
+  padding-left: 23px;
+}
+
+.place-ul > li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+/* Newsletter section style */
+
+.newsletter-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.newsletter-section > hr {
+  width: 393px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+.newsletter-text {
+  max-width: 532px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #ff5400;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.newsletter-text > h2 {
+  margin-bottom: 0px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.newsletter-form input {
+  max-width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding-left: 20px;
+}
+
+.newsletter-form > .primary-btn {
+  width: 393px;
+  height: 52px;
+}
+
+.newsletter-image {
+  width: 610px;
+  height: 424px;
+  background: url("../images/discount.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.discounts {
+  width: 324px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  position: relative;
+  bottom: 54px;
+  right: 10px;
+}
+
+.discounts p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.discounts h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* feature section style here */
+
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.feature-card{
+  width: 230px;
+  height: 220px;
+  padding: 21px 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(121, 121, 121, 0.25);
+}
+.feature-card > img {
+  width: 100px;
+  height: 100px;
+}
+
+.upper-para {
+  color: #f00;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1.15px;
+}
+
+.lower-para {
+  color: #000;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1.15px;
+}
+
+/* footer section style */
+
+footer {
+  max-width: 1440px;
+  width: 100%;
+  height: 502px;
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > hr {
+  width: 872px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+  margin: 50px 0;
+}
+
+.footer-text section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-text section > img {
+  width: 40px;
+}
+.footer-text section > h3 {
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.links-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 32px 0;
+}
+
+.links-section > a {
+  color: #5a5a5d;
+  font-size: 25px;
+}

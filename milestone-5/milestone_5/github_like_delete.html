@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Like Delete Confirmation Button</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center min-h-screen">
+    <div
+      class="bg-slate-200 shadow-2xl w-96 mx-auto h-96 flex items-center justify-center"
+    >
+      <div
+        class="flex flex-col items-center justify-center space-y-5"
+      >
+        <h1 class="text-4xl" id="secret">My Secret info</h1>
+        <div>
+          <input type="text" name="" id="input" class="p-[9px] rounded-l-xl bg-cyan-600 text-white placeholder:text-white placeholder:text-xl" placeholder="Enter Delete"/>
+          <button class="btn bg-[#e3ff] hover:bg-cyan-600 -ml-2 text-white" disabled id="btn">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./github_like_delete.js"></script>
+  </body>
+</html>

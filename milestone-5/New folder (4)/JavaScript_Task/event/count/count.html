@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count App</title>
+
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="container my-52 mx-auto text-center space-y-5">
+        <h1 class="font-bold text-3xl">Welcome To My Awesome Count App 🤪</h1>
+    <h2 id="display" class="font-bold text-3xl">0</h2>
+    <button class="btn btn-primary mr-2" id="incrementBtn">+</button>
+    <button class="btn btn-secondary" id="decrementBtn">-</button>
+    </main>
+
+    <script>
+        const incrementBtn = document.getElementById("incrementBtn");
+        const decrementBtn = document.getElementById("decrementBtn");
+        const display = document.getElementById("display");
+
+        let count = 0;
+
+        incrementBtn.addEventListener('click',()=>{
+            count++;
+            display.innerText = count;
+        })
+
+       decrementBtn.addEventListener('click',()=>{
+            count--;
+            display.innerText = count;
+        })
+    </script>
+</body>
+</html>

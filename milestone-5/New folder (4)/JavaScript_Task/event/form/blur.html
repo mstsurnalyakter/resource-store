@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>blur event in form element is triggered when the user removes the focus of the input.</h1>
+  <p>Focus in the input below and then remove the focus.</p>
+  <input type="text" onblur="blurInput()">
+
+  <script>
+    const blurInput = () =>{
+        alert('Focus removed')
+    }
+  </script>
+</body>
+</html>

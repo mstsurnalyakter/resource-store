@@ -1,0 +1,10 @@
+{
+    "name":"John Doe",
+    "age":30,
+    "isStudent":false,
+    "address":{
+        "city":"New York",
+        "country":"USA"
+    },
+    "hobbies":["Reading","running","cookies"]
+}

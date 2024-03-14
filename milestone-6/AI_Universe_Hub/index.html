@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Universe Hub</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- daisy ui && tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="work-sans">
+
+
+    <!-- header section -->
+    <header class="container mx-auto px-4 lg:px-24 py-5">
+      <nav class="mb-5">
+        <div class="navbar">
+          <div class="flex-1">
+            <a class="text-2xl font-bold">AI Universe Hub</a>
+          </div>
+          <div class="flex-none gap-2">
+            <div class="form-control">
+              <input
+                type="text"
+                placeholder="Search"
+                class="input input-bordered w-24 md:w-auto"
+              />
+            </div>
+            <div class="dropdown dropdown-end">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost btn-circle avatar"
+              >
+                <div class="w-10 rounded-full border-2 border-gray-50">
+                  <img
+                  class=""
+                    alt="profile image"
+                    src="./images/my-image.png"
+                  />
+                </div>
+              </div>
+              <ul
+                tabindex="0"
+                class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a class="justify-between">
+                    Profile
+                    <span class="badge">New</span>
+                  </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+        <div class="carousel w-full h-[600px]">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img src="./images/banner.jpg" class="w-full object-cover" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a>
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="./images/banner2.jpg" class="w-full object-cover" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a>
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="./images/banner3.jpg" class="w-full object-cover" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a>
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+      </section>
+    </header>
+    <!-- main section -->
+    <main class="container mx-auto px-4 lg:px-24 my-16">
+        <section class="text-center mb-16 space-y-6">
+            <h1 class="text-[#111] font-semibold text-5xl">AI Universe Hub</h1>
+            <button class="btn bg-[#EB5757] hover:bg-[#EB5757] text-white text-xl">Sort By Date</button>
+        </section>
+
+        <section>
+            <div id="tool-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            </div>
+        </section>
+
+        <section class="text-center my-10">
+          <button onclick="handleSeeMore()" id="see-more-btn-container" class="btn bg-[#EB5757] hover:bg-[#EB5757] text-white text-xl">See More</button>
+        </section>
+
+
+
+        <dialog id="see_more_modal" class="modal modal-bottom sm:modal-middle">
+          <div class="modal-box w-11/12 max-w-5xl p-14">
+              <div id="see-more-container" class="grid grid-cols-2 gap-3">
+                <div id="details-card-left" class="card  bg-base-100 shadow-xl border-2 border-[#EB5757] bg-[#EB57570D]">
+                </div>
+                <div id="details-card-right" class="card  bg-base-100 shadow-xl"></div>
+              </div>
+            <div class="modal-action">
+              <form method="dialog" class="">
+              <button class="btn btn-sm btn-circle bg-[#EB5757] hover:bg-[#EB5757] absolute right-1 top-1">✕</button>
+            </form>
+            </div>
+          </div>
+        </dialog>
+
+
+
+
+    </main>
+    <!-- footer section -->
+
+    <!-- <img src="./images/banner.jpg" alt=""> -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>

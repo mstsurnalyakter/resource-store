@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-slate-500 py-1">
+      <nav class="container mx-auto px-5 lg:px-24">
+        <div class="flex items-center md:justify-between">
+          <div class="">
+            <a class="btn btn-ghost text-xl"
+              ><img src="./images/logo.png" alt="" class="w-28"
+            /></a>
+          </div>
+          <div class="">
+            <ul
+              class="flex items-center justify-between gap-2 md:gap-10 lg:gap-44"
+            >
+              <li class="flex items-center justify-center">
+                <span
+                  id="cart"
+                  class="relative -translate-y-9 text-4xl text-red-900 font-bold"
+                  >0</span
+                ><img src="./images/cart.png" alt="" class="w-14 mr-2" />Home
+              </li>
+              <li>Setting</li>
+              <li class="">
+                <img
+                  src="./images/man.png"
+                  alt=""
+                  class="w-16 h-16 p-2 border-2 rounded-full"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="container mx-auto px-5 lg:px-24">
+      <!-- hero section -->
+      <section class="mb-10">
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img src="./images/banner.png" class="" />
+            <div>
+              <h1 class="text-5xl font-bold">Lets Travel</h1>
+              <p class="py-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                expedita quae eum temporibus tenetur porro commodi doloribus
+                omnis explicabo vero?
+              </p>
+              <p class="text-5xl font-bold">
+                Total Budget: <span id="budget">900</span> $
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- card container -->
+      <section class="grid grid-cols-3 gap-3">
+        <!-- left side -->
+        <section class="mb-10 grid grid-cols-1 lg:grid-cols-3 gap-3 col-span-2">
+          <!-- card1 -->
+          <div
+            class="common-card border-4 bg-base-100 shadow-xl flex flex-row lg:flex-col justify-around"
+          >
+            <figure>
+              <img
+                src="./images/shajek.jpg"
+                alt="Shoes"
+                class="p-5 rounded-3xl"
+              />
+            </figure>
+            <div class="text-center p-5 space-y-7">
+              <h2 class="text-4xl font-bold">Shajek</h2>
+              <p class="text-3xl font-semibold">Cost: <span>300</span> $</p>
+              <button class="btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <!-- card2 -->
+          <div
+            class="common-card border-4 bg-base-100 shadow-xl flex flex-row lg:flex-col justify-around"
+          >
+            <figure>
+              <img
+                src="./images/Dhaka.jpg"
+                alt="Shoes"
+                class="p-5 rounded-3xl"
+              />
+            </figure>
+            <div class="text-center p-5 space-y-7">
+              <h2 class="text-4xl font-bold">Dhaka</h2>
+              <p class="text-3xl font-semibold">Cost: <span>400</span> $</p>
+              <button class="btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <!-- card1 -->
+          <div
+            class="common-card border-4 bg-base-100 shadow-xl flex flex-row lg:flex-col justify-around"
+          >
+            <figure>
+              <img
+                src="./images/coxBazar.jpg"
+                alt="Shoes"
+                class="p-5 rounded-3xl"
+              />
+            </figure>
+            <div class="text-center p-5 space-y-7">
+              <h2 class="text-4xl font-bold">Cox Bazar</h2>
+              <p class="text-3xl font-semibold">Cost: <span>350</span> $</p>
+              <button class="btn">Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- right side -->
+        <section class="mb-10">
+          <div
+            class="bg-stone-200 shadow-2xl flex items-center justify-center flex-col space-y-5 py-6 px-3"
+          >
+            <h3 class="text-4xl font-semibold">Cart</h3>
+            <div id="title-price-container" class="border-[1px] space-x-2 border-l-0 border-r-0 py-[1px] border-black w-full"></div>
+            <p class="text-2xl font-medium">
+              Total Cost: <span id="total-cost">0</span> $
+            </p>
+            <div>
+              <button id="bus" class="btn costBtn bg-red-400 text-white text-xl">
+                Bus +100
+              </button>
+              <button id="train" class="btn costBtn bg-red-400 text-white text-xl">
+                Train -200
+              </button>
+              <button id="fight" class="btn costBtn bg-red-400 text-white text-xl">
+                Fight +500
+              </button>
+            </div>
+            <p class="border-[1px] border-black w-full"></p>
+            <div class="pb-32">
+              <p class="text-2xl font-medium">
+                Grand Total: <span id="grand-total">0</span> $
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>change event in form element is triggered when the value of the element is changed</h1>
+  <p>Change the input below then click outside the input to trigger the change event.</p>
+  <input type="text" onchange="changeInput(this)">
+  <p id="output"></p>
+
+  <script>
+    const changeInput = event =>{
+        document.querySelector("#output").innerHTML = event.value;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alphabet Clash Pro</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Daisy UI and Tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <main
+      class="min-h-screen bg-[#010313] bg-[url(./images/background.png)] bg-no-repeat bg-center"
+    >
+      <!-- home screen  -->
+      <section
+        id="home-section"
+        class="home min-h-screen text-white flex justify-center items-center"
+      >
+        <div class="flex flex-col items-center gap-10">
+          <h1 class="text-8xl uppercase">Alpha Clash Pro</h1>
+          <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+          <button
+            id="homeBtn"
+            class="btn bg-white text-black hover:bg-red-500 hover:text-white px-5"
+          >
+            Play Now
+          </button>
+        </div>
+      </section>
+
+      <!-- play ground start -->
+      <section id="play-ground-section" class="hidden">
+        <div class="flex flex-col items-center gap-20 pt-20">
+          <!-- screen -->
+          <div
+            class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#ffffffB3]" id="artboardId"
+          >
+            <div class="flex justify-center">
+              <p class="bg-[#2F2941] px-6 pb-4 rounded-b-xl text-white">
+                Don't watch keyboard while playing...
+              </p>
+            </div>
+
+            <div class="flex justify-center items-center h-full">
+              <p
+                id="current-alphabet"
+                class="text-black text-9xl font-bold uppercase"
+              >
+                Y
+              </p>
+            </div>
+          </div>
+
+          <!-- keyboard  start -->
+          <div>
+            <div class="flex justify-center gap-1 my-1 w-full">
+              <kbd id="q" class="kbd">q</kbd>
+              <kbd id="w" class="kbd">w</kbd>
+              <kbd id="e" class="kbd">e</kbd>
+              <kbd id="r" class="kbd">r</kbd>
+              <kbd id="t" class="kbd">t</kbd>
+              <kbd id="y" class="kbd">y</kbd>
+              <kbd id="u" class="kbd">u</kbd>
+              <kbd id="i" class="kbd">i</kbd>
+              <kbd id="o" class="kbd">o</kbd>
+              <kbd id="p" class="kbd">p</kbd>
+            </div>
+            <div class="flex justify-center gap-1 my-1 w-full">
+              <kbd id="a" class="kbd">a</kbd>
+              <kbd id="s" class="kbd">s</kbd>
+              <kbd id="d" class="kbd">d</kbd>
+              <kbd id="f" class="kbd">f</kbd>
+              <kbd id="g" class="kbd">g</kbd>
+              <kbd id="h" class="kbd">h</kbd>
+              <kbd id="j" class="kbd">j</kbd>
+              <kbd id="k" class="kbd">k</kbd>
+              <kbd id="l" class="kbd">l</kbd>
+            </div>
+            <div class="flex justify-center gap-1 my-1 w-full">
+              <kbd id="z" class="kbd">z</kbd>
+              <kbd id="x" class="kbd">x</kbd>
+              <kbd id="c" class="kbd">c</kbd>
+              <kbd id="v" class="kbd">v</kbd>
+              <kbd id="b" class="kbd">b</kbd>
+              <kbd id="n" class="kbd">n</kbd>
+              <kbd id="m" class="kbd">m</kbd>
+              <kbd id="/" class="kbd">/</kbd>
+            </div>
+          </div>
+          <!-- keyboard  end -->
+
+          <!-- life scope -->
+          <div class="flex justify-between w-3/4">
+            <button
+              class="btn rounded-full bg-[#894189] text-white hover:bg-[#360490] px-5"
+            >
+              Life
+              <img src="./images/heart.svg" alt="" />
+              <span id="life">5</span>
+            </button>
+
+            <button
+              class="btn rounded-full bg-[#360490] text-white hover:bg-[#894189] px-5"
+            >
+              Score
+              <img src="./images/dollar.svg" alt="" />
+              <span id="score">0</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- play ground end -->
+
+      <!-- score -->
+      <section
+        id="score-section"
+        class="hidden score flex justify-center items-center min-h-screen"
+      >
+        <div
+          class="text-white rounded-2xl text-center space-y-6 bg-[#ffffff33] border-2 p-11 border-[#FFFFFF33]"
+        >
+          <h4 class="text-3xl">Game Over</h4>
+          <h1 class="text-7xl">
+            <span class="font-extrabold">Score : </span>
+            <span id="gain-score">0</span>
+          </h1>
+          <button
+            class="btn bg-white hover:bg-red-500 hover:text-white text-black border-none"
+            id="play-again"
+          >
+            Play Again
+          </button>
+          <p>Practice will make you Pro</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

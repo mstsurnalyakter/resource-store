@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>PH TUBE</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Daisy UI && Tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="inter">
+    <!-- header -->
+    <header class="container mx-auto px-4 lg:px-24 mb-8">
+      <nav class="py-8">
+        <div class="navbar">
+          <div class="navbar-start">
+            <a class=""><img src="./images/logo.png" alt="" /></a>
+          </div>
+          <div class="navbar-center">
+            <button onclick="sortHandler()" id="sort-btn" class="btn">Sort by view</button>
+          </div>
+          <div class="navbar-end">
+            <a class="btn text-white bg-[#FF1F3D] hover:bg-[#FF1F3D]">Blog</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="border-t-2 border-[#17171733]"></div>
+    </header>
+
+    <!-- main -->
+    <main class="container mx-auto px-4 lg:px-24 mb-8">
+      <section id="btn-container" class="flex justify-center mb-12 gap-2">
+      </section>
+
+      <section class="mt-12">
+        <div id="error-message" class="hidden mt-24">
+          <div class="flex items-center justify-center flex-col gap-6">
+            <img src="./images/icon.png" alt="" class="">
+          <h1 class="text-3xl mt-3 text-sky-400 text-center">Oops!! There are No Content here</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- video container -->
+
+      <section>
+        <div id="video-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-[#FF1F3D] text-white object-cover"></footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+@media screen and (max-width:576px) {
+   nav, ul{
+        flex-direction: column;
+        gap: 10px;
+        /* justify-content: center; */
+        align-items: center;
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mousemove event is triggered when the mouse pointer moves over the element.</h1>
+  <p>Move the mouse pointer over the button.</p>
+  <button onmousemove="trackMouse()" id="btn">Track Mouse</button>
+
+  <script>
+    const btn = document.querySelector('#btn');
+    const trackMouse = () =>{
+        const x = event.clientX;
+        const y = event.clientY;
+        btn.innerHTML = `Mouse position ${x} && ${y}`;
+    }
+  </script>
+</body>
+</html>

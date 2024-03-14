@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn2">Button - 2</button>
+    <button id="btn3">Button - 3</button>
+    <button id="btn1">Button - 1</button>
+    <br /><br />
+    <img src="./images/pngwing2.png" alt="" width="300px"/>
+
+    <script>
+      const btn1 = document.querySelector("#btn1");
+      const btn2 = document.querySelector("#btn2");
+      const btn3 = document.querySelector("#btn3");
+      const img = document.querySelector("img");
+      btn1.addEventListener('click',()=>{
+        img.src = './images/pngwing2.png'
+      })
+      btn2.addEventListener('click',()=>{
+        img.src = './images/pngwing3.png'
+      })
+
+      btn3.addEventListener('click',()=>{
+        img.src = './images/pngwing5.png'
+      })
+    </script>
+  </body>
+</html>

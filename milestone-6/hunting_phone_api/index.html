@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hunting Phone API</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="poppins">
+    <header class="container mx-auto px-4 lg:px-24 py-10 text-center">
+      <h1 class="text-3xl">Phone Hunter</h1>
+    </header>
+    <main class="container mx-auto px-4 lg:px-24">
+      <!-- search -->
+      <section class="mb-5 grid grid-cols-5 gap-1">
+        <label class="input input-bordered flex items-center gap-2 col-span-4">
+          <input
+            id="search-field"
+            type="text"
+            class="grow"
+            placeholder="Search........."
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 16 16"
+            fill="currentColor"
+            class="w-4 h-4 opacity-70"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </label>
+        <button class="btn btn-secondary" onclick="handleSearch()">
+          Search
+        </button>
+      </section>
+
+      <!-- error -->
+      <section id="error-container" class="flex items-center justify-center py-32 hidden">
+        <img src="./images/error.jpg" alt="">
+      </section>
+
+      <!-- loader -->
+      <section id="loader" class="text-center py-8 hidden">
+        <span
+          class="loading loading-spinner loading-lg text-secondary transition-all duration-75 ease-linear"
+        ></span>
+      </section>
+      <!-- phone container -->
+      <section>
+        <div
+          id="phone-container"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+        ></div>
+        <div class="text-center py-10">
+          <button
+            class="btn btn-secondary hidden"
+            onclick="handleShowAllBtn()"
+            id="show-all-btn"
+          >
+            Show All
+          </button>
+        </div>
+
+        <!-- modal -->
+
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+          <div class="modal-box">
+            <div id="modal-detail-container">
+
+            </div>
+            <div class="modal-action">
+              <form method="dialog">
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </section>
+    </main>
+    <footer class="container mx-auto px-4 lg:px-24"></footer>
+
+    <script src="./script.js"></script>
+    <!-- <script src="./script2.js"></script> -->
+  </body>
+</html>

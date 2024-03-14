@@ -1,0 +1,14 @@
+.user-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.user-car {
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}

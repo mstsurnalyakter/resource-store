@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+       <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <h1>Grid Layout</h1>
+    <section class="grid gap-2.5 md:grid-cols-4 m-5">
+        <div class="bg-blue-400 p-4 rounded-lg">Box-1</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-2</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-3</div>
+        <div class="bg-blue-400 p-4 rounded-lg md:col-span-3 md:row-span-7 flex items-center justify-center">Box-4</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-5</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-6</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-7</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-8</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-9</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-10</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-11</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-12</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-13</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-14</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-15</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-16</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-17</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-18</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-19</div>
+        <div class="bg-blue-400 p-4 rounded-lg">Box-20</div>
+    </section>
+
+    <section class="mt-10">
+        <div class="grid grid-cols-1 gap-4 m-5 md:grid-cols-3">
+            <div class="bg-yellow-500 p-5 rounded-lg md:col-span-3">Header </div>
+            <div class="bg-yellow-500 p-5 rounded-lg">Nav </div>
+            <div class="bg-yellow-500 p-5 rounded-lg md:col-span-2 h-40">Main </div>
+            <div class="bg-yellow-500 p-5 rounded-lg md:col-span-3">footer</div>
+        </div>
+    </section>
+
+</body>
+</html>

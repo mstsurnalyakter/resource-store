@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ByteBeats</title>
+
+    <link rel="shortcut icon" href="./images/joinforum.png" type="image/x-icon">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- daisy ui and tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="mulish">
+    <!-- header section -->
+    <header class="container mx-auto px-4 lg:px-24 pt-6">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="flex-1">
+            <a class="text-3xl font-black text-[#12132D]">ByteBeats</a>
+          </div>
+          <div class="flex-none gap-1 md:gap-4">
+            <div class="tooltip" data-tip="Home">
+                 <img
+              src="./images/home.png"
+              class="bg-[#12192D08] p-2 rounded-full border-2 border-[#0307121A] cursor-pointer"
+              alt=""
+            />
+            </div>
+            <div class="tooltip" data-tip="Edit">
+                 <img
+              src="./images/edit.png"
+              class="bg-[#12192D08] p-2 rounded-full border-2 border-[#0307121A] cursor-pointer"
+              alt=""
+            />
+            </div>
+            <div class="tooltip" data-tip="Add">
+              <img
+              src="./images/add.png"
+              class="bg-[#12192D08] p-2 rounded-full border-2 border-[#0307121A] cursor-pointer"
+              alt=""
+            />
+            </div>
+            <div class="tooltip" data-tip="Report Problem">
+              <img
+              src="./images/icon.png"
+              class="bg-[#12192D08] p-2 rounded-full border-2 border-[#0307121A] cursor-pointer"
+              alt=""
+            />
+            </div>
+
+            <button
+              class="btn bg-[#797DFC] hover:bg-[#595eed] text-white w-32 rounded-full"
+            >
+              Sign In
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner section -->
+
+    <section class="mt-5 mb-24">
+  <div class="carousel w-full min-h-[600px] py-4 bg-[#12132D] rounded-[32px]">
+    <div
+      class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.2),rgba(0,0,0,0.1)),url(./images/bgbanner.png)] bg-center  bg-cover  object-cover"
+    >
+      <div class="hero">
+        <div class="hero-content text-center">
+          <section class="flex flex-col gap-6 lg:gap-3 lg:grid lg:grid-cols-5">
+              <div class=" space-y-5 lg:col-span-3">
+            <div class="text-2xl md:text-4xl lg:text-6xl font-black text-white space-y-3">
+                  <h2>Welcome to the </h2>
+                <h2><span class="bg-gradient-to-r from-purple-500  to-[#7D7DFC] text-transparent bg-clip-text">ByteBeats</span> Forum</h2>
+            </div>
+            <p class="text-xl font-medium text-[#FFFFFFCC] w-2/3 mx-auto">
+              Step into a world where code syncs with rhythm and laughter harmonizes with melodies. ByteBeats is your backstage pass to a community where developers, musicians, and humor enthusiasts come together.
+            </p>
+            <label class="input input-bordered flex items-center gap-2 w-2/3 relative rounded-full mx-auto">
+          <input id="search-field" type="text" class="grow" placeholder="Search here anything" />
+          <button onclick="handleSearch()" id="search-btn" class="btn rounded-full w-32 bg-[#797DFC] text-white hover:bg-[#464bea] right-0 absolute">Search</button>
+          </label>
+          </div>
+          <div class="col-span-2 flex items-center justify-center">
+              <div class="card bg-[#fff] shadow-xl w-2/3 lg:w-full py-5">
+              <div class="card-body space-y-4">
+                  <p class="flex justify-between"><span>Registered Users</span><span>05</span></p>
+                  <p class="flex justify-between"><span>Forum</span><span>05</span></p>
+                  <p class="flex justify-between"><span>Topics</span><span>01</span></p>
+                  <p class="flex justify-between"><span>Replies</span><span>01</span></p>
+              </div>
+          </div>
+          </div>
+          </div>
+          </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </header>
+
+    <!-- main section -->
+    <main class="container mx-auto px-4 lg:px-24">
+
+        <!-- not found image -->
+      <section id="error-container" class="flex items-center justify-center my-4 hidden">
+          <img src="./images/error.jpg" alt="">
+      </section>
+        <!-- Let’s Discuss section -->
+        <section class="mt-24 mb-12 w-1/2 mx-auto text-center">
+            <h2 class="mb-6 text-4xl font-black text-[#12132D]">Let’s Discuss</h2>
+            <p class="inter text-[#12192D99]">
+                ByteBeats is a place, where ideas spark and conversations flow! Let's start a journey of exploration, enlightenment, and endless laughter together!
+            </p>
+        </section>
+
+                     <!-- loader or spinner -->
+      <section id="loader-container" class="my-10 text-center hidden">
+        <span class="loading loading-spinner loading-lg text-secondary"></span>
+        <span class="loading loading-spinner loading-lg text-secondary"></span>
+        <span class="loading loading-spinner loading-lg text-secondary"></span>
+      </section>
+
+        <!-- all post container -->
+        <section class="grid grid-cols-3 gap-5 mb-24">
+            <div class="col-span-2 space-y-5" id="all-post-container"></div>
+            <div>
+                <div class="card bg-[#12192D0D] shadow-xl w-full rounded-3xl py-2 lg:p-5">
+                    <div class="grid grid-cols-2 mb-5 items-center">
+                        <h2 class="text-[#12132D] font-bold text-xl pl-3">Title</h2>
+                        <div class="inter flex flex-col lg:flex-row items-center justify-center text-[#12192D99]"><img src="./images/mark.png" class="w-5" alt=""><p>Mark as read (<span id="read-num">0</span>)</p></div>
+                    </div>
+                    <div id="read-info-container">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Our Forum -->
+        <section class="mb-24">
+          <div class="bg-[#12132D] min-h-[400px] rounded-[32px] py-10">
+
+            <div class="hero">
+        <div class="hero-content lg:px-28 flex-col lg:flex-row-reverse">
+          <img src="./images/joinforum.png" />
+          <div class="text-center lg:text-left text-white">
+            <h1 class="text-5xl font-bold">Join Our Forum</h1>
+            <p class="py-6 w-2/3 mx-auto lg:mx-0">Become a part of the ByteBeats community by joining our forum! By joining our forum, you gain access to a treasure trove of knowledge, laughter, and inspiration.</p>
+            <button class="btn rounded-full w-40 bg-[#797DFC] text-white hover:bg-[#464bea]">Registered Now</button>
+          </div>
+        </div>
+      </div>
+
+          </div>
+        </section>
+
+          <!-- Latest Posts section -->
+        <section class="mb-12 w-1/2 mx-auto text-center">
+            <h2 class="mb-6 text-4xl font-black text-[#12132D]">Latest Posts</h2>
+            <p class="inter text-[#12192D99]">
+                Stay up-to-date with the  ByteBeats in our Latest Posts section! Here, you'll find a dynamic feed of the freshest content, ranging from insightful coding tutorials to hilarious comedy sketches and captivating musical compositions.
+            </p>
+        </section>
+
+
+       <!-- loader or spinner -->
+      <section id="loader-container2" class="my-10 text-center hidden">
+        <span class="loading loading-spinner loading-lg text-secondary"></span>
+        <span class="loading loading-spinner loading-lg text-secondary"></span>
+        <span class="loading loading-spinner loading-lg text-secondary"></span>
+      </section>
+
+        <!-- Latest Posts container -->
+        <section class="mb-24">
+          <div id="latest-post-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+          </div>
+        </section>
+
+    </main>
+
+    <!-- footer section -->
+    <footer class="bg-gray-100 pt-7 pb-12">
+      <section  class="container mx-auto px-4 lg:px-24">
+        <section class="mt-24  w-1/2 mx-auto text-center">
+            <h2 class="mb-6 text-4xl font-black text-[#12132D]">ByteBeats</h2>
+            <p class="inter text-[#12192DB3]">
+                Follow us on social media to stay connected and receive updates on the latest ByteBeats news and events.
+            </p>
+        </section>
+
+        <section class="mt-10 mb-12 w-1/2 mx-auto text-center space-x-8">
+          <a target="_blank" class="text-3xl" href="https://github.com/mstsurnalyakter"><i class="fa-brands fa-github"></i></a>
+           <a target="_blank" class="text-3xl" href="https://www.linkedin.com/in/mst-surnaly-akter/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a target="_blank" class="text-3xl" href="https://twitter.com/mstsurnalyakter"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" class="text-3xl" href="https://web.facebook.com/profile.php?id=100077322343037"><i class="fa-brands fa-facebook-f"></i></a>
+            <a target="_blank" class="text-3xl" href="https://www.instagram.com/mstsurnalyakte/"><i class="fa-brands fa-instagram"></i></a>
+        </section>
+
+        <section class="border-t-2 border-[#30325E1A] mb-7"></section>
+        <section class="">
+          <p class="text-[#12192D80] text-center">Copyright © 2024 ByteBeats. All rights reserved.</p>
+        </section>
+        </section>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

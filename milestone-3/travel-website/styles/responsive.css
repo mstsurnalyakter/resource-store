@@ -1,0 +1,356 @@
+@media screen and (max-width: 600px) {
+  .common-para {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+  .margin-bottom {
+    margin-bottom: 24px;
+  }
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  /* nav style */
+  .nav ul {
+    flex-wrap: wrap;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-logo h3 {
+    font-size: 1.4rem;
+  }
+
+  .nav-link {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .active {
+    display: block;
+  }
+  /* banner section */
+  .banner-text > h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .banner-input {
+    width: 287px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .banner-input input,
+  select{
+    width: 100%;
+  }
+
+
+  /* Popular Tours section style */
+
+  .popular-tour-section {
+    flex-direction: column;
+  }
+
+  /* Destination section style */
+
+  .destination-text {
+    margin-bottom: 16px;
+  }
+
+  .destination-text > h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .destination-content {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+  }
+
+  .destination-content > section {
+    height: 250px;
+  }
+
+  .maldive {
+    grid-column: 1 / span 12;
+    grid-row: 1;
+  }
+
+  .indonesia {
+    grid-column: 1 / span 12;
+    grid-row: 2;
+  }
+
+  .srilanka {
+    grid-column: 1 / span 12;
+    grid-row: 3;
+  }
+
+  .north-america {
+    grid-column: 1 / span 12;
+    grid-row: 4;
+  }
+
+  .kashmir {
+    grid-column: 1 / span 12;
+    grid-row: 5;
+  }
+
+  .bangladesh {
+    grid-column: 1 / span 12;
+    grid-row: 6;
+  }
+
+  .bandarban {
+    grid-column: 1 / span 12;
+    grid-row: 7;
+  }
+
+  /* Why Choose Us section  style*/
+
+  /* Deals & Discounts section */
+
+  #deals-card1,
+  #deals-card2,
+  #deals-card3 {
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .deals-card > .card {
+    width: 303px;
+    height: 350px;
+    padding: 25px;
+    gap: 5px;
+    padding: 30px;
+  }
+
+  .time-place {
+    gap: 10px;
+  }
+
+  .card-text p.price {
+    font-size: 16px;
+  }
+
+  .deals-card .primary-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+
+  /* Perfect Place section style */
+  /* Newsletter section style */
+
+  .perfect-place-section,
+  .newsletter-section {
+    flex-direction: column;
+  }
+
+  .perfect-place-image,
+  .perfect-place-text,
+  .newsletter-text,
+  .newsletter-image {
+    width: 100%;
+  }
+
+  .perfect-place-text > .common-para,
+  .newsletter-section > .common-para {
+    text-align: left;
+  }
+
+  .newsletter-form > .primary-btn{
+    width: 370px;
+  }
+
+  .feature-section{
+   flex-direction: column;
+   gap: 20px;
+  }
+
+}
+
+
+/*  */
+@media screen and (min-width: 600px) and (max-width:992px) {
+
+  .margin-bottom {
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  /* nav style */
+
+  .nav-logo h3 {
+    font-size: 2rem;
+  }
+
+
+
+  .nav ul li{
+    padding: 0.4rem;
+  }
+
+  .nav ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* banner section */
+  .banner-text > h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .banner-input {
+    width: 400px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .banner-input input,
+  select{
+    width: 100%;
+  }
+
+
+  /* Popular Tours section style */
+
+  .popular-tour-section {
+    flex-direction: column;
+  }
+
+  /* Destination section style */
+
+  .destination-text {
+    margin-bottom: 16px;
+  }
+
+  .destination-text > h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .destination-content {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+  }
+
+  .destination-content > section {
+    height: 350px;
+  }
+
+  .maldive {
+    grid-column: 1 / span 12;
+    grid-row: 1;
+  }
+
+  .indonesia {
+    grid-column: 1 / span 12;
+    grid-row: 2;
+  }
+
+  .srilanka {
+    grid-column: 1 / span 12;
+    grid-row: 3;
+  }
+
+  .north-america {
+    grid-column: 1 / span 12;
+    grid-row: 4;
+  }
+
+  .kashmir {
+    grid-column: 1 / span 12;
+    grid-row: 5;
+  }
+
+  .bangladesh {
+    grid-column: 1 / span 12;
+    grid-row: 6;
+  }
+
+  .bandarban {
+    grid-column: 1 / span 12;
+    grid-row: 7;
+  }
+
+  /* Why Choose Us section  style*/
+
+  /* Deals & Discounts section */
+
+  #deals-card1,
+  #deals-card2,
+  #deals-card3 {
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .deals-card > .card {
+    width: 303px;
+    height: 350px;
+    padding: 25px;
+    gap: 5px;
+    padding: 30px;
+  }
+
+  .time-place {
+    gap: 10px;
+  }
+
+  .card-text p.price {
+    font-size: 16px;
+  }
+
+  .deals-card .primary-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+
+  /* Perfect Place section style */
+  /* Newsletter section style */
+
+  .perfect-place-section,
+  .newsletter-section {
+    flex-direction: column;
+  }
+
+
+  .perfect-place-text,
+  .newsletter-text,
+  .newsletter-image {
+    width: 100%;
+  }
+
+  .perfect-place-text > .common-para,
+  .newsletter-section > .common-para {
+    text-align: left;
+  }
+
+  /* feature section style */
+   .feature-section{
+      flex-direction: column;
+      gap: 20px;
+  }
+
+
+}

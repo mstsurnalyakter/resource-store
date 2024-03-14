@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <h1>GitHup</h1>
+   <input type="text" name="" id="" placeholder="Please write Delete">
+   <button disabled>Delete</button>
+
+    <script>
+
+        const button = document.querySelector('button');
+        const input = document.querySelector('input');
+
+        input.addEventListener('keyup',(e)=>{
+            const text = e.target.value;
+            if (text.toLowerCase() === 'delete') {
+                button.removeAttribute('disabled');
+                button.addEventListener('click',()=>{
+                      document.querySelector('h1').style.display = 'none';
+                       e.target.value = "";
+                })
+            }else{
+                button.setAttribute("disabled",true);
+            }
+
+        })
+
+    </script>
+
+</body>
+</html>

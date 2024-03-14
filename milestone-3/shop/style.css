@@ -1,0 +1,264 @@
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+}
+img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.margin-bottom{
+    margin-bottom: 30px;
+}
+
+header{
+    background-color: #b085da;
+    /* height: 50px; */
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header-section{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.header-section > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 15px;
+}
+
+.nav-title-logo{
+    display: flex;
+    width: 50%;
+}
+
+.nav-title-logo > img{
+    width: 40px;
+}
+
+.nav-title-logo > h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav-title-logo h3 span{
+    color: #dc143c;
+}
+
+nav ul a{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+nav ul a:hover{
+    color: crimson;
+}
+
+.login-btn{
+    background-color: #dc143c;
+   padding: 10px 24px;
+}
+
+.login-btn:hover{
+background-color: white;
+ color: crimson;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 5px;
+    min-height: 70vh;
+
+}
+
+.hero-section-text{
+    text-align: center;
+    width: 48%;
+}
+
+.hero-section-image{
+    width: 48%;
+    position: relative;
+}
+
+.hero-section-image img{
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.hero-section-text h1{
+    background: linear-gradient(to top, #e893cf,#9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 70px;
+}
+
+.hero-section-text h3{
+  font-family: "Dancing Script", cursive;
+    font-size: 35px;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.social-link i{
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn button{
+    background: crimson;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #9376e0;
+}
+
+.off{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    bottom: 63%;
+    left: 60%;
+}
+
+.product-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+.product-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+
+.card{
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.card > img{
+    /* width: 300px;
+    height: 300px; */
+    width: 100%;
+}
+
+.card-icon-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card-icon-text section > i{
+    background-color: #9376e0;
+    padding: 10px;
+    border-radius: 50%;
+}
+.card-text > button{
+    background-color: crimson;
+    padding: 10px 24px;
+    color: white;
+    margin: 10px 0;
+}
+
+.gallery-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    background-color: lightgray;
+
+}
+
+.gallery-image > img{
+      flex-basis: 200px;
+    border: 1px solid crimson;
+}
+
+footer{
+    min-height: 300px;
+    background-color: #9376e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p img{
+    width: 70px;
+    /* height: 50px; */
+}

@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.box{
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: teal;
+    border: 2px solid rebeccapurple;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,287 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* common style starts here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section-heading h2 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+button {
+  background: #e55473;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px 43px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 2ms linear;
+}
+
+button:hover {
+  background-color: #dc778d;
+}
+/* common style ends here */
+
+/*  header section starts here */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+
+.banner .banner-text h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.banner .banner-image img {
+  width: 100%;
+  vertical-align: middle;
+}
+/*  header section ends here */
+
+/* feature section starts here */
+#feature {
+  padding: 100px 0;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+}
+
+.section-content .flower .flower-image {
+  border-radius: 300px 300px 0px 0px;
+  padding: 30px 25px 0;
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+
+.section-content .flower .flower-image img {
+  width: 100%;
+}
+
+.section-content .flower .pink {
+  background: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .blue {
+  background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .green {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 16px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+/* feature section ends here */
+
+/* delivery section starts here */
+#delivery {
+  padding: 100px 0;
+}
+.delivery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  height: 320px;
+}
+
+.section-content .delivery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.section-content .delivery-section .delivery-section-image img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.section-content .delivery-section p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* delivery section ends here */
+
+/* Hot Deal section starts here */
+
+#hot-deal {
+  padding: 100px 0;
+}
+.hot-deal-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-image {
+  margin-right: 150px;
+}
+
+.hot-deal-image img {
+  width: 100%;
+  max-width: 240px;
+}
+
+.off {
+  color: #e55473;
+  font-size: 40px;
+  font-weight: 800;
+}
+/* Hot Deal section ends here */
+
+/* Instagram section starts here */
+
+#instagram {
+  padding-bottom: 100px;
+}
+
+/* Instagram section ends here */
+
+/* Subscribe section starts here  */
+
+#subscribe {
+  padding-bottom: 100px;
+}
+
+.subscribe-section {
+  background-image: url("./images/rectangle4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-section form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscribe-section form input {
+  width: 525px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 15px;
+}
+
+::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Subscribe section ends here */
+
+/* footers section starts here */
+footer {
+  width: 100%;
+  height: 449px;
+  background: #111010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section{
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-section h2{
+  color: #FFF;
+font-size: 36px;
+font-weight: 800;
+
+}
+.footer-section h2 span{
+  color: #E55473;
+}
+
+.footer-section p{
+  color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.footer-section .copyright{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+}
+
+/* footers section ends here */

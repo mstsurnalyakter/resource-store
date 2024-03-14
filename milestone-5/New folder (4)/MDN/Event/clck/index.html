@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../../images/play.png" width="300px" height="300px" alt="">
+
+    <script>
+        const myImage = document.querySelector('img');
+        myImage.addEventListener('click',()=>{
+            const mySrc = myImage.getAttribute("src");
+            if (mySrc === "../../images/play.png") {
+                myImage.setAttribute("src","../../images/play_girl.png")
+            }else{
+                myImage.setAttribute("src","../../images/play.png")
+            }
+        })
+    </script>
+</body>
+</html>

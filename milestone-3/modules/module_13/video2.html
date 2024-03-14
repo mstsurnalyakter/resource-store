@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+    <div class="carousel w-full">
+  <div id="item1" class="carousel-item w-full">
+    <img src="./images/jacket-1.png" class="w-500" />
+  </div>
+  <div id="item2" class="carousel-item w-full">
+    <img src="./images/jacket-2.png" class="w-500" />
+  </div>
+  <div id="item3" class="carousel-item w-full">
+    <img src="./images/jacket-3.png" class="w-500" />
+  </div>
+  <div id="item4" class="carousel-item w-full">
+    <img src="./images/jacket-4.png" class="w-500" />
+  </div>
+</div>
+<div class="flex justify-center w-full py-2 gap-2">
+  <a href="#item1" class="btn btn-xs">1</a>
+  <a href="#item2" class="btn btn-xs">2</a>
+  <a href="#item3" class="btn btn-xs">3</a>
+  <a href="#item4" class="btn btn-xs">4</a>
+</div>
+
+    <div class="join join-vertical w-full">
+  <div class="collapse collapse-arrow join-item border border-base-300">
+    <input type="radio" name="my-accordion-4" checked="checked" />
+    <div class="collapse-title text-xl font-medium">
+     Do you like tailwind CSS?
+    </div>
+    <div class="collapse-content">
+      <p>Yes</p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow join-item border border-base-300">
+    <input type="radio" name="my-accordion-4" />
+    <div class="collapse-title text-xl font-medium">
+      Where do you live?
+    </div>
+    <div class="collapse-content">
+      <p>I am live in Bangladesh</p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow join-item border border-base-300">
+    <input type="radio" name="my-accordion-4" />
+    <div class="collapse-title text-xl font-medium">
+      Click to open this one and close others
+    </div>
+    <div class="collapse-content">
+      <p>hello</p>
+    </div>
+  </div>
+</div>
+
+<span class="loading loading-spinner text-primary"></span>
+<span class="loading loading-spinner text-secondary"></span>
+<span class="loading loading-spinner text-accent"></span>
+<span class="loading loading-spinner text-neutral"></span>
+<span class="loading loading-spinner text-info"></span>
+<span class="loading loading-spinner text-success"></span>
+<span class="loading loading-spinner text-warning"></span>
+<span class="loading loading-spinner text-error"></span>
+
+<!-- My Shoes -->
+<section>
+    <div class="m-10">
+        <!-- first shoes -->
+        <div class="card w-96 bg-base-100 shadow-xl bg-white">
+  <figure><img src="./images/jacket-1.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+    </div>
+</section>
+
+</body>
+</html>

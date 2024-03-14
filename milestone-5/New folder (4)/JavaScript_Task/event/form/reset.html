@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>reset event in form element is triggered when the form is reset</h1>
+  <p>Set some value in the form and then reset it. The reset event is triggered.</p>
+  <form onreset="resetForm()">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="email" placeholder="email">
+    <input type="reset" value="reset">
+  </form>
+
+  <script>
+    const resetForm = () =>{
+        alert('Form reset.');
+    }
+  </script>
+</body>
+</html>

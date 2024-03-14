@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+
+    <!-- Tailwind and DaisyUI link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind custom style -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- custom style -->
+    <style></style>
+  </head>
+  <body>
+    <section class="w-36 mx-auto my-20">
+      <button class="btn">Button - 1</button><br /><br />
+      <button class="btn btn-neutral">Button - 2</button><br /><br />
+      <button class="btn btn-primary">Button - 3</button><br /><br />
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-accent">Accent</button>
+      <button class="btn btn-ghost">Ghost</button>
+      <button class="btn btn-link">Link</button>
+    </section>
+  </body>
+</html>

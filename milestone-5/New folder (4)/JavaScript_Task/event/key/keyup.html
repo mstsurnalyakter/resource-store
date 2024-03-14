@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>keyup event is triggered when a key is released</h1>
+  <p>Press any key on the keyboard by focusing on the text area below</p>
+  <p id="output"></p>
+  <textarea onkeyup="keyUp()"></textarea>
+
+  <script>
+    const output = document.querySelector('#output');
+    let count = 0;
+    const keyUp = () =>{
+        count++;
+        output.innerHTML = `You released: ${event.key} && total number of times: ${count}`
+    }
+  </script>
+</body>
+</html>

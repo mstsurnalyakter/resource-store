@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="bg-[#0e1133] py-6">
+      <section class="container mx-auto lg:px-24 px-8">
+        <div class="flex text-white justify-between">
+          <div class="flex justify-center items-center space-x-8">
+            <div>
+              <img src="./assets/logo-3.png" alt="">
+            </div>
+            <div class="space-x-4 text-lg font-semibold hidden lg:flex">
+              <a class="hover:text-orange-600 duration-300" href="#">Home</a>
+              <a class="hover:text-orange-600 duration-300" href="#">About</a>
+              <a class="hover:text-orange-600 duration-300" href="#">Blog</a>
+              <a class="hover:text-orange-600 duration-300" href="#">Contact</a>
+            </div>
+          </div>
+
+          <div class="space-x-6 hidden lg:flex">
+            <button class="text-xl font-semibold">Login</button>
+            <button class="bg-orange-600 rounded-md text-lg font-semibold px-6 py-3 hover:bg-transparent border-2 border-orange-600 duration-300">Get Start</button>
+          </div>
+
+          <div class="lg:hidden">
+            <img class="w-8" src="./assets/more.png" alt="">
+          </div>
+
+        </div>
+
+      </section>
+    </nav>
+
+    <!-- header section -->
+    <header class="bg-[#12174e] pt-24 flex flex-col justify-center items-center">
+
+      <div class="container mx-auto lg:px24 px-8">
+        <div class="mx-auto text-white text-center space-y-6">
+        <h1 class="text-2xl lg:text-7xl md:text-4xl font-bold">Creative way to <br> Showcase your <span class="text-orange-500 ">App</span></h1>
+        <p class="opacity-70 px-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa modi facere, quo accusamus quam mollitia?</p>
+        <div class="space-x-4 flex items-center justify-center">
+         <button class="bg-orange-600 rounded-md text-lg font-semibold px-6 py-3 hover:bg-transparent border-2 border-orange-600 duration-300">Get Start</button>
+         <button class="flex text-lg items-center justify-center"><img class="w-4 mr-2" src="./assets/play-button.png" alt=""> Play Video</button>
+      </div>
+      </div>
+
+      <div class="lg:translate-y-56 xlg:translate-x-32 md:translate-y-2/4 translate-y-20 px-4">
+        <img src="./assets/hero-thumb-4.png" alt="">
+      </div>
+
+      </div>
+
+    </header>
+
+    <!-- What you can do -->
+    <section class="mt-20 md:mt-40 lg:mt-52">
+      <div class="text-center space-y-4 md:space-y-10">
+        <h1 class="text-2xl lg:text-7xl md:text-4xl font-bold opacity-70">What you can do</h1>
+        <p class="lg:w-1/2 mx-auto opacity-70 px-5 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsum numquam officiis repudiandae placeat fuga deserunt fugit incidunt doloremque. Veritatis, harum ab. Magni, pariatur sapiente!</p>
+      </div>
+      <div class="container mx-auto my-48 lg:px-24 px-8">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 lg:gap-8">
+          <!-- card one -->
+          <div class="shadow-xl rounded-md p-8">
+            <div class="w-20 h-20 bg-green-600 rounded-full mx-auto flex items-center justify-center">
+              <img src="./assets/play-store.png" alt="">
+            </div>
+            <div class="text-center space-y-3 mt-6">
+              <h3 class="text-lg font-medium opacity-70">Easy to Use</h3>
+              <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, neque?</p>
+              <button>Read More..</button>
+            </div>
+          </div>
+
+          <!-- card two -->
+          <div class="shadow-xl rounded-md p-8">
+            <div class="w-20 h-20 bg-yellow-600 rounded-full mx-auto flex items-center justify-center">
+              <img src="./assets/play-store.png" alt="">
+            </div>
+            <div class="text-center space-y-3 mt-6">
+              <h3 class="text-lg font-medium opacity-70">Easy to Use</h3>
+              <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, neque?</p>
+              <button>Read More..</button>
+            </div>
+          </div>
+
+          <!-- card three -->
+          <div class="shadow-xl rounded-md p-8">
+            <div class="w-20 h-20 bg-blue-600 rounded-full mx-auto flex items-center justify-center">
+              <img src="./assets/play-store.png" alt="">
+            </div>
+            <div class="text-center space-y-3 mt-6">
+              <h3 class="text-lg font-medium opacity-70">Easy to Use</h3>
+              <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, neque?</p>
+              <button>Read More..</button>
+            </div>
+          </div>
+
+          <!-- card four -->
+          <div class="shadow-xl rounded-md p-8">
+            <div class="w-20 h-20 bg-purple-600 rounded-full mx-auto flex items-center justify-center">
+              <img src="./assets/play-store.png" alt="">
+            </div>
+            <div class="text-center space-y-3 mt-6">
+              <h3 class="text-lg font-medium opacity-70">Easy to Use</h3>
+              <p class="text-lg opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, neque?</p>
+              <button>Read More..</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+  </body>
+</html>

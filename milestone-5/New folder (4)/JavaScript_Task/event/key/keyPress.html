@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>keypress event is triggered when a key is pressed</h1>
+  <p>Press any key on the keyboard by focusing on the text area below</p>
+  <p id="output"></p>
+  <textarea onkeypress="keyPress()"></textarea>
+
+  <script>
+    const output = document.querySelector('#output');
+    let count = 0;
+    const keyPress = () =>{
+        count++;
+        output.innerHTML = `Youse pressed = ${event.key} && number of time = ${count}`
+    }
+  </script>
+
+</body>
+</html>

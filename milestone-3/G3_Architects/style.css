@@ -1,0 +1,242 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* common style starts here */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto 50px auto;
+}
+
+p {
+  color: #727272;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+h1 {
+  color: #131313;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+button {
+  width: 180px;
+  height: 64px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #ff900e;
+}
+
+/* common style starts here */
+
+/* Header section starts here */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 0;
+}
+
+.banner .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.banner .nav ul {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner .nav h2 {
+  color: #131313;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.banner .nav ul li a {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.banner .banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .banner-content .banner-text {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .banner-content .banner-text * {
+  margin-bottom: 35px;
+}
+
+.banner .banner-content .banner-text p {
+  text-align: center;
+}
+
+/* Header section ends here */
+
+/* Features section starts here */
+.feature-section {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.feature-section .feature-text {
+  width: 35%;
+}
+
+.feature-section .feature-text * {
+  margin-bottom: 20px;
+}
+
+.feature-section .feature-text h2 .quick-list {
+  color: #727272;
+  font-weight: 500;
+}
+
+.feature-section .feature-text h2 .features {
+  color: #ff900e;
+  font-weight: 700;
+}
+
+.feature-section .feature-image {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Features section ends here */
+
+
+/* Experience section starts here */
+/* Experience section ss here */
+
+
+
+/* Responsive design */
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+
+   button {
+  width: 120px;
+  height: 47px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+  .feature-section .feature-text {
+    width: 50%;
+  }
+
+  .banner .nav, .nav ul {
+    flex-direction: column;
+  }
+
+  .banner .nav h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+
+  .feature-section {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+
+  img{
+    border-radius: 0;
+  }
+
+  button {
+  width: 100px;
+  height: 44px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+
+  .banner .nav,.banner .nav ul {
+    flex-direction: column;
+  }
+
+  .banner .nav h2,
+  ul {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+    .nav ul li{
+    margin-bottom: 5px;
+  }
+
+  .nav ul li:hover{
+    border-bottom: 1px solid gray;
+    width: 100%;
+
+  }
+
+  .feature-section {
+    flex-direction: column-reverse;
+  }
+
+  .feature-section .feature-text {
+    width: 50%;
+  }
+
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+}
