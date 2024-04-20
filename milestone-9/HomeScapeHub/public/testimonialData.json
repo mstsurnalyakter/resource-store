@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dana Gilmore",
+    "title": "Real Estate Investor",
+    "testimonial": "I found my perfect investment property through this website. The process was seamless, and the team provided excellent support throughout.",
+    "image": "https://i.ibb.co/Ssv9BN3/testimonial1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Susan Barkley",
+    "title": "First-time Homebuyer",
+    "testimonial": "Thanks to this platform, I finally found my dream home. The user-friendly interface made searching for properties a breeze, and I couldn't be happier with the outcome.",
+    "image": "https://i.ibb.co/2cKXqPf/testimonial2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Simpson",
+    "title": "Property Manager",
+    "testimonial": "As a property manager, I rely on this website to find quality tenants for my rental properties. The listings are comprehensive, and the screening process is efficient.",
+    "image": "https://i.ibb.co/3hg5m85/testimonial3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Sara Loreley",
+    "title": "Real Estate Agent",
+    "testimonial": "I've been using this platform to showcase my listings, and it's been a game-changer for my business. The exposure my properties receive here is unparalleled.",
+    "image": "https://i.ibb.co/2W49PJy/testimonial4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Jessica Fowley",
+    "title": "Home Seller",
+    "testimonial": "Selling my home was a breeze with the help of this website. The listing process was straightforward, and I received multiple offers within days.",
+    "image": "https://i.ibb.co/nfHwZGX/testimonial5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Sarah Adams",
+    "title": "Property Developer",
+    "testimonial": "Finding prime development opportunities has never been easier. This website consistently provides valuable insights into the market, helping me make informed decisions.",
+    "image": "https://i.ibb.co/sbkvngy/testimonials6.webp"
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Modern Home in Downtown SF",
+    "segment_name": "Single-family homes",
+    "description": "Beautiful modern Home located in the heart of downtown San Francisco. Offers breathtaking views of the city skyline. Filled with natural light. Deck off dining room and bedrooms. New floors are throughout the main living areas and new carpets in the bedrooms. The handsome updated kitchen has an eat-in area and window balcony ..",
+    "price": "$1,500,000",
+    "status": "Sale",
+    "area": "1500 sq ft",
+    "location": "San Francisco, CA 99932",
+    "facilities": ["swimming pool","garden",  "updated kitchen"],
+    "image": [
+        "https://i.ibb.co/njPcx9Z/sf1.webp",
+        "https://i.ibb.co/CJ1g03n/sf2.webp",
+        "https://i.ibb.co/hcjxQv9/sf3.webp",
+        "https://i.ibb.co/f9xmPhS/sf4.webp",
+        "https://i.ibb.co/DzVy63z/sf5.webp"
+    ],
+    "view_property_button": "property-details?id=1"
+  },
+  {
+    "id": 2,
+    "estate_title": "Beautiful Flat in Manhattan",
+    "segment_name": "Apartments",
+    "description": "Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood Floors, Cherry Cabinets And New Bath And Complete Set Of Stainless Steel Appliances. Large 5 Bedrooms House With Seperate Living, Dinning And Office/Study Room. Must See To Appreciate.",
+    "price": "$999 / month",
+    "status": "Rent",
+    "area": "8000 sq ft",
+    "location": "San Francisco, CA 23678",
+    "facilities": ["swimming pool", "home theater", "wine cellar"],
+    "image": [
+        "https://i.ibb.co/VNQwPRf/pacific-heights1.webp",
+        "https://i.ibb.co/dmFbKzv/pacific-heights2.webp",
+        "https://i.ibb.co/wg8QfrG/pacific-heights3.webp",
+        "https://i.ibb.co/HGqTn5B/pacific-heights4.webp",
+        "https://i.ibb.co/BBLmstx/pacific-heights5.webp"
+    ],
+    "view_property_button": "property-details?id=2"
+  },
+  {
+    "id": 3,
+    "estate_title": "Charming Victorian Home in Haight-Ashbury",
+    "segment_name": "Single-family homes",
+    "description": "Classic Victorian-style home located in the iconic Haight-Ashbury district. Offers vintage charm and modern comforts.This architecturally remodeled 4-bed, 3.5-bath Queen Anne Victorian perfectly blends historic charm with contemporary living. From its enchanting facade, with a signature turret, to its modern amenities within, this home achieves a perfect balance of elegance and comfort. The entertainment level boasts tall ceilings, sun-drenched spaces and a seamless flow from the entry to living room, library, and an area for a baby grand piano. The fully equipped sun-drenched kitchen opens to a walk-out deck, overlooking the tranquil and verdant garden, complete with basketball hoop! A coat closet & powder room complete this level. Upper level includes a hall library, three spacious bedrooms and two full baths, including a primary suite with its own turret! ",
+    "price": "$2,200,000",
+    "status": "Sale",
+    "area": "2500 sq ft",
+    "location": "San Francisco, CA 45678",
+    "facilities": ["garden", "fireplace", "updated kitchen"],
+    "image": [
+        "https://i.ibb.co/BwsxFBd/haight-ashbury1.webp",
+        "https://i.ibb.co/1Jy7F7C/haight-ashbury2.webp",
+        "https://i.ibb.co/nkyVdCG/haight-ashbury3.webp",
+        "https://i.ibb.co/Jp5HJTK/haight-ashbury4.webp",
+        "https://i.ibb.co/5WK4WLZ/haight-ashbury5.webp"
+    ],
+    "view_property_button": "property-details?id=3"
+  },
+  {
+    "id": 4,
+    "estate_title": "Villa for Rent in Queens",
+    "segment_name": "Apartments",
+    "description": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk River Valley. Located right in the heart of Upstate NYs Amish farm Country, this land is certified organic making it extremely rare! Good road frontage on a paved county road with utilities make it an amazing setting for your dream country getaway! If you like views, you must see this property!",
+    "price": "$900 / year",
+    "status": "Rent",
+    "area": "1200 sq ft",
+    "location": "New York, Queens",
+    "facilities": ["garden",  "updated kitchen", "wine cellar"],
+    "image": [
+        "https://i.ibb.co/nRS7jyS/soMa1.webp",
+        "https://i.ibb.co/njB71p2/soMa2.webp",
+        "https://i.ibb.co/2MPCTjJ/soMa3.webp",
+        "https://i.ibb.co/mX97xNL/soMa4.webp",
+        "https://i.ibb.co/J78XtfY/soMa5.webp"
+    ],
+    "view_property_button": "property-details?id=4"
+  },
+  {
+    "id": 5,
+    "estate_title": "Three Room Apartment",
+    "segment_name": "Apartments",
+    "description": "Magnificent penthouse offering panoramic views of the San Francisco Bay. Features luxurious finishes and expansive outdoor terrace.Sprawling 5 bedroom, 4.5 bath Ranch on over 1 Acre! This home was built with quality materials and has only had 1 owner who also built the home! The original plans and photos from start to finish are available for review. 2 gas fireplaces! The kitchen is spacious and right off the hallway with a nice sized pantry but could be extended. The main master bedroom is located on the opposite side of the home from the other bedrooms for privacy. ",
+    "price": "$6,500,000",
+    "status": "Sale",
+    "area": "5000 sq ft",
+    "location": "New York, Manhattan",
+    "facilities": ["garden",  "updated kitchen","fireplace"],
+    "image": [
+        "https://i.ibb.co/KNtt49v/bay1.webp",
+        "https://i.ibb.co/cCXNmqv/bay2.webp",
+        "https://i.ibb.co/QmQdVn8/bay4.webp",
+        "https://i.ibb.co/020L5Gf/bay3.webp",
+        "https://i.ibb.co/0hPXq68/bay5.webp"
+    ],
+    "view_property_button": "property-details?id=5"
+  },
+  {
+    "id": 6,
+    "estate_title": "Modern Townhouse in Mission District",
+    "segment_name": "Townhouse",
+    "description": "Newly built townhouse located in the vibrant Mission District. Features sleek design and convenient location.Striking the perfect balance between quintessential Victorian charm and updated modern comforts, this exceptional 3 bedroom, 2 remodeled bathroom residence features soaring 10'+ ceilings, abundant natural light, restored original hardwood floors, and wonderful period detail. This indoor-outdoor residence offers superb entertaining and gathering spaces. Surrounded by windows, the open format well-designed living room flows into the dining room and chef's kitchen with direct garden access. Three bedrooms, each well-portioned, include its primary bedroom with a remodeled ensuite bathroom. In addition to its second bedroom, a quiet and peaceful third bedroom offers relaxing verdant views of the mature garden and can double as a home office or in-home gym. Completing the home is a lovely shared backyard with multiple sitting and entertaining areas, in-home laundry, a second full bathroom (complete with a bathtub), extensive garage storage, and independent garage parking.",
+    "price": "$300 / month",
+    "status": "Rent",
+    "area": "1800 sq ft",
+    "location": "San Francisco, CA 58933",
+    "facilities": ["private patio", "attached garage", "smart home features"],
+    "image": [
+        "https://i.ibb.co/Pc6G4RD/district1.webp",
+        "https://i.ibb.co/7VmjhS2/district2.webp",
+        "https://i.ibb.co/wJJ16gt/district3.webp",
+        "https://i.ibb.co/71jZsv6/district4.webp",
+        "https://i.ibb.co/xFtznqf/district5.webp"
+    ],
+    "view_property_button": "property-details?id=6"
+  },
+  {
+    "id": 7,
+    "estate_title": "Family House In Hudson",
+    "segment_name": "Single-family homes",
+    "description": "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood. This home features hardwood floors throughout, brand new bathrooms, newer EIK, modern front-load washer/dryer, full dining room, large living area, 3 spacious bedrooms and plenty of storage.Master bedroom includes both a standard closet and custom closet wall unit. Large windows face many directions for tons of natural light.",
+    "price": "$2,800,000",
+    "status": "Sale",
+    "area": "3000 sq ft",
+    "location": "Jersey City, Greenville",
+    "facilities": ["backyard garden", "chef's kitchen", "media room"],
+    "image": [
+        "https://i.ibb.co/HCzKj7B/valley1.webp",
+        "https://i.ibb.co/fDZdDQj/valley2.webp",
+        "https://i.ibb.co/Bq4KRcW/valley3.webp",
+        "https://i.ibb.co/6ZmMpsv/valley4.webp",
+        "https://i.ibb.co/ZWSS7qz/valley5.webp"
+    ],
+    "view_property_button": "property-details?id=7"
+  },
+  {
+    "id": 8,
+    "estate_title": "Cool House in Bayonne",
+    "segment_name": "Townhouse",
+    "description": "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood. This home features hardwood floors throughout, brand new bathrooms, newer EIK, modern front-load washer/dryer, full dining room, large living area, 3 spacious bedrooms and plenty of storage.Master bedroom includes both a standard closet and custom closet wall unit. Large windows face many directions for tons of natural light..",
+    "price": "$4,000,000",
+    "status": "Sale",
+    "area": "2200 sq ft",
+    "location": "Jersey City, Bayonne",
+    "facilities": ["garden",  "updated kitchen","swimming pool"],
+    "image":[
+      "https://i.ibb.co/7yQVHVG/villa1.webp",
+      "https://i.ibb.co/JtMmgkS/villa2.webp",
+      "https://i.ibb.co/0j684PS/villa3.webp",
+      "https://i.ibb.co/RBZd25P/villa4.webp",
+      "https://i.ibb.co/DQrbQVs/villa5.webp"
+    ],
+    "view_property_button": "property-details?id=8"
+  },
+  {
+    "id": 9,
+    "estate_title": "Modern High-Rise Apartment in Financial District",
+    "segment_name": "Apartments",
+    "description": "Luxury high-rise apartment located in the bustling Financial District. Features upscale amenities and stunning city views.Unbeatable Investment Opportunity!THE APARTMENT:EXTRA-LARGE studio home offering approximately 600 square feet of living space, tons of closets, high ceilings and a flexible floor plan. With a full suite of appliances and tons of counter space and cabinets in the separate kitchen and a full bath (with tub), there is nothing left to desire. End of the hall positioning make it pin drop quiet for your WFH set-up, too!THE BUILDING:This building has it all! Originally built in the Art Deco style in 1929, the building was converted to luxury condos in 2007. It offers a state of the art gym and yoga facility, package and cold storage rooms, laundry on every floor, a library, business center, live-in super, billiards lounge, Harbor room, bike room, doorman, concierge and a landscaped Sky Deck.THE NEIGHBORHOOD:Be at the center of it all! Have access to multiple train lines directly outside the door, the waterfront esplanade is across the street, there is abundant green space close by and more. Eataly, Brookfield and Westfield Malls, the Oculus, Nobu, Whole Foods and Target are all just a short distance from the building.This amount of space for this price is hard to find!SHOWINGS ARE DURING OPEN HOUSE TIMES ONLY.",
+    "price": "$1,700,000",
+    "status": "Sale",
+    "area": "2000 sq ft",
+    "location": "New York, Manhattan",
+    "facilities": ["rooftop pool", "24/7 security", "concierge"],
+    "image": [
+        "https://i.ibb.co/nC0YLRh/financial1.webp",
+        "https://i.ibb.co/s25xzpt/financial2.webp",
+        "https://i.ibb.co/d78jjT1/financial3.webp",
+        "https://i.ibb.co/5GwMVcV/financial4.webp",
+        "https://i.ibb.co/ZSQHbT7/financial5.webp"
+    ],
+    "view_property_button": "property-details?id=9"
+  }
+]

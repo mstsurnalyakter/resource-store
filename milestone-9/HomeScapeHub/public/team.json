@@ -1,0 +1,38 @@
+[
+  {
+    "id":1,
+    "name": "John Berkowitz",
+    "profession": "Real Estate Consultant",
+    "image": "https://i.ibb.co/JxMChxv/JOHN-BERKOWITZ.jpg"
+  },
+  {
+    "id":2,
+    "name": "Angela Dunham",
+    "profession": "Property Manager",
+    "image": "https://i.ibb.co/pvBj9gs/ANGELA-DUNHAM.jpg"
+  },
+  {
+    "id":3,
+    "name": "Chris Heller",
+    "profession": "Financial Advisor",
+    "image": "https://i.ibb.co/F8gQ1M9/CHRIS-HELLER.jpg"
+  },
+  {
+    "id":4,
+    "name": "Jerimiah Taylor",
+    "profession": "Real Estate Agent",
+    "image": "https://i.ibb.co/wKy4Jsb/JERIMIAH-TAYLOR.jpg"
+  },
+  {
+    "id":5,
+    "name": "Dave Robinett",
+    "profession": "Home Inspector",
+    "image": "https://i.ibb.co/LgxwgNX/DAVE-ROBINETT.jpg"
+  },
+  {
+    "id":6,
+    "name": "Imtiyaz Haque",
+    "profession": "Marketing Specialist",
+    "image": "https://i.ibb.co/52PD735/HAQUE-IMTIYAZ.jpg"
+  }
+]
