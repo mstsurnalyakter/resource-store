@@ -9,7 +9,7 @@ import useContextData from "../../hooks/useContextData";
 import SocialLogin from "../../components/SocialLogin/SocialLogin";
 
 const Login = () => {
-  
+
   // navigation
   const navigate = useNavigate();
   const location = useLocation();
