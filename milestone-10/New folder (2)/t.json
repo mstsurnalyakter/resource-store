@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "name": "Angela Dunham",
+      "occupation": "Graphic Designer",
+      "testimonial": "I was amazed by the quality of service provided by PaperCrafts & Glass Artistry. Their attention to detail and dedication to customer satisfaction truly sets them apart. ",
+      "image": "https://example.com/john_doe.jpg"
+    },
+    {
+      "name": "Dana Gilmore",
+      "occupation": "Web Developer",
+      "testimonial": "As a web developer, I appreciate the creativity and craftsmanship that goes into every piece from PaperCrafts & Glass Artistry.",
+      "image": "https://example.com/jane_smith.jpg"
+    },
+    {
+      "name": "Lisa Simpson",
+      "occupation": "Marketing Manager",
+      "testimonial": "Working with PaperCrafts & Glass Artistry has been a pleasure. Their team is professional, responsive, and passionate about their craft.",
+      "image": "https://example.com/alice_johnson.jpg"
+    }
+  ]
+}

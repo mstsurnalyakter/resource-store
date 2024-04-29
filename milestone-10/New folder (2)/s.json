@@ -1,0 +1,40 @@
+{
+  "Art & Craft Categories": [
+    {
+      "image": "https://i.postimg.cc/j5DGXvN6/Card-Making.jpg",
+      "subcategory_name": "Card Making",
+      "origins": "Card making has been a popular form of expression for centuries, with its roots dating back to ancient China....",
+      "key_elements": "Key elements of card making include selecting quality cardstock and paper, choosing appropriate embellishments such as ribbons and stickers,.... "
+    },
+    {
+      "image": "https://i.postimg.cc/RZGyx2LQ/Scrapbooking1.jpg",
+      "subcategory_name": "Scrapbooking",
+      "origins": "Scrapbooking traces its origins back to the 15th century when commonplace books were used to compile personal memorabilia such as letters, poems, ....",
+      "key_elements": "Key elements of scrapbooking include selecting archival-quality materials to ensure longevity, organizing photos and memorabilia ...."
+    },
+    {
+      "image": "https://i.postimg.cc/BQTRMj8z/Paper-Quilling-Origami.jpg",
+      "subcategory_name": "Paper Quilling & Origami",
+      "origins": "Paper quilling, also known as paper filigree, has its origins in medieval Europe, where it was used to decorate religious artifacts and manuscripts....",
+      "key_elements": "Key elements of paper quilling & origami include mastering basic folding and shaping techniques, selecting appropriate paper types and sizes, ...."
+    },
+    {
+      "image": "https://i.postimg.cc/FKRqrGPt/Glass-Painting.jpg",
+      "subcategory_name": "Glass Painting",
+      "origins": "The art of glass painting has ancient origins, with evidence of painted glass artifacts dating back to ancient Egypt and Rome....",
+      "key_elements": "Key elements of glass painting include selecting compatible glass paints and mediums, preparing the glass surface for painting,...."
+    },
+    {
+      "image": "https://i.ibb.co/gtMmBRX/Handcrafted-Glass-Pendant.jpg",
+      "subcategory_name": "Lampworking",
+      "origins": "Lampworking, also known as flameworking or torchworking, has ancient origins dating back to the ancient Egyptians....",
+      "key_elements": "Key elements of lampworking include mastering basic glassworking techniques such as heating, shaping, and annealing,...."
+    },
+    {
+      "image": "https://i.ibb.co/ryHKRdx/Stained-Glass-Window-Panel.jpg",
+      "subcategory_name": "Glass Dying & Staining",
+      "origins": "The art of glass dying and staining has ancient origins, with evidence of stained glass windows dating back to the 1st century AD in Roman and Byzantine architecture....",
+      "key_elements": "Key elements of glass dying & staining include selecting compatible glass dyes and stains, preparing the glass surface for coloring,...."
+    }
+  ]
+}

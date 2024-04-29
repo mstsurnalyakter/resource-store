@@ -1,0 +1,81 @@
+{
+  "Lampworking": [
+    {
+      "image": "https://i.ibb.co/gtMmBRX/Handcrafted-Glass-Pendant.jpg",
+      "item_name": "Handcrafted Glass Pendant",
+      "subcategory_Name": "Lampworking",
+      "short_description": "Beautiful handcrafted glass pendant with intricate lampworking designs.",
+      "price": 34.99,
+      "rating": 4.6,
+      "customization": true,
+      "processing_time": "3-5 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "https://i.ibb.co/23m3trv/Glass-Bead-Earrings.jpg",
+      "item_name": "Glass Bead Earrings",
+      "subcategory_Name": "Lampworking",
+      "short_description": "Elegant glass bead earrings made with lampworking techniques.",
+      "price": 19.99,
+      "rating": 4.4,
+      "customization": true,
+      "processing_time": "2-4 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "https://i.ibb.co/qdVrz21/Colorful-Glass-Bracelet.jpg",
+      "item_name": "Colorful Glass Bracelet",
+      "subcategory_Name": "Lampworking",
+      "short_description": "Vibrant glass bracelet featuring colorful lampworked glass beads.",
+      "price": 24.99,
+      "rating": 4.5,
+      "customization": false,
+      "processing_time": "1-3 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "https://i.ibb.co/GM8RMgT/Glass-Flower-Sculpture.jpg",
+      "item_name": "Glass Flower Sculpture",
+      "subcategory_Name": "Lampworking",
+      "short_description": "Exquisite glass flower sculpture created through lampworking techniques.",
+      "price": 49.99,
+      "rating": 4.8,
+      "customization": true,
+      "processing_time": "4-6 business days",
+      "stockStatus": "Made to Order"
+    },
+    {
+      "image": "https://i.ibb.co/4sYtBtB/Glass-Dragon-Figurine.jpg",
+      "item_name": "Glass Dragon Figurine",
+      "subcategory_Name": "Lampworking",
+      "short_description": "Intricately crafted glass dragon figurine made with lampworking skills.",
+      "price": 39.99,
+      "rating": 4.7,
+      "customization": true,
+      "processing_time": "3-5 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "lamp6.jpg",
+      "item_name": "Glass Bead Necklace",
+      "subcategory_Name": "Lampworking",
+      "short_description": "Stunning glass bead necklace showcasing lampworked glass beads.",
+      "price": 29.99,
+      "rating": 4.6,
+      "customization": false,
+      "processing_time": "2-4 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "lamp7.jpg",
+      "item_name": "Glass Paperweight",
+      "subcategory_Name": "Lampworking",
+      "short_description": "Functional and decorative glass paperweight crafted with lampworking techniques.",
+      "price": 14.99,
+      "rating": 4.3,
+      "customization": false,
+      "processing_time": "1-2 business days",
+      "stockStatus": "In Stock"
+    }
+  ]
+}

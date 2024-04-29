@@ -1,0 +1,81 @@
+{
+  "Glass Dying & Staining": [
+    {
+      "image": "https://i.ibb.co/ryHKRdx/Stained-Glass-Window-Panel.jpg",
+      "item_name": "Stained Glass Window Panel",
+      "subcategory_Name": "Glass Dying & Staining",
+      "short_description": "Beautiful stained glass window panel with intricate designs.",
+      "price": 99.99,
+      "rating": 4.8,
+      "customization": true,
+      "processing_time": "5-7 business days",
+      "stockStatus": "Made to Order"
+    },
+    {
+      "image": "dying2.jpg",
+      "item_name": "Glass Dyeing Starter Kit",
+      "subcategory_Name": "Glass Dying & Staining",
+      "short_description": "Comprehensive starter kit for dyeing and staining glass projects.",
+      "price": 49.99,
+      "rating": 4.6,
+      "customization": false,
+      "processing_time": "3-5 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "https://i.ibb.co/n6WjZ1J/Stained-Glass-Jewelry-Box.jpg",
+      "item_name": "Stained Glass Jewelry Box",
+      "subcategory_Name": "Glass Dying & Staining",
+      "short_description": "Elegant stained glass jewelry box perfect for storing your accessories.",
+      "price": 39.99,
+      "rating": 4.7,
+      "customization": true,
+      "processing_time": "4-6 business days",
+      "stockStatus": "Made to Order"
+    },
+    {
+      "image": "dying4.jpg",
+      "item_name": "Glass Staining Art Kit",
+      "subcategory_Name": "Glass Dying & Staining",
+      "short_description": "Artistic kit for creating beautiful stained glass art pieces.",
+      "price": 59.99,
+      "rating": 4.5,
+      "customization": false,
+      "processing_time": "3-5 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "dying5.jpg",
+      "item_name": "DIY Glass Staining Workshop",
+      "subcategory_Name": "Glass Dying & Staining",
+      "short_description": "Interactive workshop kit for learning how to stain glass at home.",
+      "price": 69.99,
+      "rating": 4.9,
+      "customization": false,
+      "processing_time": "2-4 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "https://i.ibb.co/6s2sDT7/Glass-Staining-Art-Kit.jpg",
+      "item_name": "Stained Glass Mosaic Kit",
+      "subcategory_Name": "Glass Dying & Staining",
+      "short_description": "Complete kit for creating stunning stained glass mosaic artworks.",
+      "price": 79.99,
+      "rating": 4.8,
+      "customization": true,
+      "processing_time": "4-6 business days",
+      "stockStatus": "Made to Order"
+    },
+    {
+      "image": "https://i.ibb.co/YRKK9H4/Handcrafted-Glass-Candle-Holders.jpg",
+      "item_name": "Handcrafted Glass Candle Holders",
+      "subcategory_Name": "Glass Dying & Staining",
+      "short_description": "Set of handcrafted glass candle holders featuring unique dyeing and staining patterns.",
+      "price": 29.99,
+      "rating": 4.4,
+      "customization": true,
+      "processing_time": "2-3 business days",
+      "stockStatus": "In Stock"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "Glass Painting": [
+    {
+      "image": "https://i.ibb.co/5MzTjJ9/Stained-Glass-Sun-Catcher.jpg",
+      "item_name": "Stained Glass Sun Catcher",
+      "subcategory_Name": "Glass Painting",
+      "short_description": "Vibrant stained glass sun catcher to add color to your windows.",
+      "price": 19.99,
+      "rating": 4.5,
+      "customization": true,
+      "processing_time": "2-3 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "https://i.ibb.co/xSQ95VH/Hand-Painted-Wine-Glasses-Set.jpg",
+      "item_name": "Hand-Painted Wine Glasses Set",
+      "subcategory_Name": "Glass Painting",
+      "short_description": "Set of elegant hand-painted wine glasses for special occasions.",
+      "price": 29.99,
+      "rating": 4.7,
+      "customization": true,
+      "processing_time": "3-5 business days",
+      "stockStatus": "Made to Order"
+    },
+    {
+      "image": "https://i.ibb.co/pdBrYkR/Decorative-Glass-Plates-Collection.jpg",
+      "item_name": "Decorative Glass Plates Collection",
+      "subcategory_Name": "Glass Painting",
+      "short_description": "Collection of decorative glass plates featuring unique hand-painted designs.",
+      "price": 39.99,
+      "rating": 4.8,
+      "customization": true,
+      "processing_time": "4-6 business days",
+      "stockStatus": "Made to Order"
+    },
+    {
+      "image": "https://i.ibb.co/0mqR6Yf/Personalized-Glass-Coasters-Set.jpg",
+      "item_name": "Personalized Glass Coasters Set",
+      "subcategory_Name": "Glass Painting",
+      "short_description": "Set of personalized glass coasters with custom hand-painted artwork.",
+      "price": 14.99,
+      "rating": 4.6,
+      "customization": true,
+      "processing_time": "1-2 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "https://i.ibb.co/9gVD5y3/Artistic-Glass-Vases-Collection.jpg",
+      "item_name": "Artistic Glass Vases Collection",
+      "subcategory_Name": "Glass Painting",
+      "short_description": "Collection of artistic glass vases painted with vibrant colors and patterns.",
+      "price": 49.99,
+      "rating": 4.9,
+      "customization": true,
+      "processing_time": "5-7 business days",
+      "stockStatus": "Made to Order"
+    },
+    {
+      "image": "glass6.jpg",
+      "item_name": "Hand-Painted Glass Candle Holders",
+      "subcategory_Name": "Glass Painting",
+      "short_description": "Set of hand-painted glass candle holders to add ambiance to your home.",
+      "price": 24.99,
+      "rating": 4.4,
+      "customization": false,
+      "processing_time": "2-4 business days",
+      "stockStatus": "In Stock"
+    },
+    {
+      "image": "glass7.jpg",
+      "item_name": "Glass Mugs with Artistic Designs",
+      "subcategory_Name": "Glass Painting",
+      "short_description": "Set of glass mugs featuring unique artistic designs for your beverages.",
+      "price": 9.99,
+      "rating": 4.2,
+      "customization": false,
+      "processing_time": "1-3 business days",
+      "stockStatus": "In Stock"
+    }
+  ]
+}
