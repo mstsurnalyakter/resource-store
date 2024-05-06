@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar{
+    width: 100%;
+    background-color: #d5e7ee;
+}
+.react-calendar__navigation__prev2-button{
+    color: red;
+    font-size: 3rem;
+}
+
+.react-calendar__navigation__prev-button{
+      color: rgb(0, 38, 255);
+    font-size: 3rem;
+
+}
