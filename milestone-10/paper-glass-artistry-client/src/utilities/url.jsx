@@ -1,0 +1,1 @@
+export const baseURL = "https://paper-glass-artistry-server.vercel.app";
