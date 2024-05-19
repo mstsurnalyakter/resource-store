@@ -1,0 +1,11 @@
+.country{
+    border: 2px solid salmon;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.country img{
+    height: 180px;
+    width: 300px;
+}

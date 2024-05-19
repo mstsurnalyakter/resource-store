@@ -1,0 +1,42 @@
+[
+  {
+    "brand": "Apple",
+    "model": "Apple Watch Series 6",
+    "releaseYear": 2020,
+    "displayType": "OLED",
+    "price": 399,
+    "features": ["Heart rate monitor", "ECG", "GPS", "Water resistant"]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Watch 4",
+    "releaseYear": 2021,
+    "displayType": "AMOLED",
+    "price": 279,
+    "features": ["Blood pressure monitor", "ECG", "GPS", "Water resistant"]
+  },
+  {
+    "brand": "Fitbit",
+    "model": "Fitbit Versa 3",
+    "releaseYear": 2020,
+    "displayType": "AMOLED",
+    "price": 229,
+    "features": ["Heart rate monitor", "SpO2", "GPS", "Water resistant"]
+  },
+  {
+    "brand": "Garmin",
+    "model": "Garmin Venu",
+    "releaseYear": 2019,
+    "displayType": "AMOLED",
+    "price": 349,
+    "features": ["Heart rate monitor", "Pulse Ox", "GPS", "Water resistant"]
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Watch GT 2 Pro",
+    "releaseYear": 2020,
+    "displayType": "AMOLED",
+    "price": 299,
+    "features": ["Heart rate monitor", "SpO2", "GPS", "Water resistant"]
+  }
+]
