@@ -2,6 +2,8 @@
 import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { FaShare } from "react-icons/fa";
+import ShareJob from './ShareJob/ShareJob';
 
 
 
@@ -16,6 +18,8 @@ const JobCard = ({ job, handleUser }) => {
     maxSalary,
     jobApplicantsNumber,
   } = job || {};
+
+    const shareUrl = `https://job-portal-f2a64.web.app/job/${_id}`;
 
   return (
     <motion.div whileHover={{ scale: 1.1 }}>
@@ -37,9 +41,28 @@ const JobCard = ({ job, handleUser }) => {
           <p className="mt-2 text-sm font-medium text-gray-600 ">
             Salary: ${minSalary} - ${maxSalary}/month
           </p>
-          <p className="mt-2 text-sm font-medium text-gray-600 ">
+          {/* <p className="mt-2 text-sm font-medium text-gray-600 ">
             applicants: {jobApplicantsNumber}
-          </p>
+          </p> */}
+          <div className="flex justify-between items-center">
+            <p className="mt-2 text-sm font-medium text-gray-600 ">
+              applicants: {jobApplicantsNumber}
+            </p>
+            <div>
+              <button
+                className="bg-[#FF4153] p-2 rounded-full text-white"
+                onClick={() =>
+                  document.getElementById("my_modal_5").showModal()
+                }
+              >
+                <FaShare />
+              </button>
+              <ShareJob url={shareUrl} />
+            </div>
+          </div>
+          {/* <p className="mt-2 text-sm font-medium text-gray-600 ">
+            applicants: {jobApplicantsNumber}
+          </p> */}
           <p className="mt-2 text-sm font-medium text-gray-600 ">
             Employer : {user?.name}
           </p>
